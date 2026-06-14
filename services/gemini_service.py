@@ -96,7 +96,6 @@ def analyze_meal_from_image(image_base64: str) -> dict | None:
         print(f"Gemini analyze_from_image error: {e}")
         return None
 
-
 def analyze_meal_from_text(items: list) -> dict | None:
     try:
         meal_description = "\n".join(
@@ -109,6 +108,7 @@ def analyze_meal_from_text(items: list) -> dict | None:
         )
 
         response = model.generate_content(prompt)
+        print(f"Gemini raw response: {response.text}")  # ADD THIS
         return _parse_gemini_json(response.text)
 
     except Exception as e:
