@@ -1,0 +1,2837 @@
+{
+  "apple": {
+    "display_name": "Apple",
+    "water_liters": 822,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 693,
+      "blue": 78,
+      "grey": 51
+    },
+    "tips": [
+      "Apples are incredibly hydrating and provide an excellent source of soluble fiber (pectin) for gut health.",
+      "They have a very balanced water footprint, making them a fantastic daily fruit choice."
+    ],
+    "advice": "🍎 Perfect crunchy snack! To keep its footprint minimal, enjoy local varieties like Himachal or Kashmiri apples when they are in season."
+  },
+  "banana": {
+    "display_name": "Banana",
+    "water_liters": 790,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 651,
+      "blue": 103,
+      "grey": 36
+    },
+    "tips": [
+      "Bananas are a powerhouse of potassium and quick-releasing carbohydrates, perfect for pre-workout energy.",
+      "They are remarkably water-efficient for a tropical fruit, making them highly sustainable."
+    ],
+    "advice": "🍌 An absolute staple for clean energy! Keep including them in your breakfast or post-workout routines for quick muscle recovery."
+  },
+  "avocados": {
+    "display_name": "Avocados",
+    "water_liters": 1950,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 850,
+      "blue": 900,
+      "grey": 200
+    },
+    "tips": [
+      "Avocados offer excellent monounsaturated healthy fats that support heart health and nutrient absorption.",
+      "Because they require consistent watering, their footprint is slightly higher than local fruits."
+    ],
+    "advice": "🥑 Great for healthy fats! If you love creamy textures but want a local alternative with similar healthy fats, fresh white butter (makhan), soaked almonds, or a rich peanut paste work beautifully."
+  },
+  "barley_jau": {
+    "display_name": "Barley (Jau)",
+    "water_liters": 1300,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 950,
+      "blue": 250,
+      "grey": 100
+    },
+    "tips": [
+      "Jau is an ancient Indian grain loaded with beta-glucan fiber, excellent for managing blood sugar levels.",
+      "It is highly resilient and naturally requires far less water to grow than refined grains."
+    ],
+    "advice": "🌾 Fantastic choice for metabolic health! Use jau flour mixed with your regular wheat flour to easily bump up the fiber content of your rotis."
+  },
+  "beans_french": {
+    "display_name": "French Beans",
+    "water_liters": 1200,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 850,
+      "blue": 250,
+      "grey": 100
+    },
+    "tips": [
+      "French beans are packed with Vitamin K and dietary fiber, making them an essential addition to sabzis and pulaos.",
+      "They are highly efficient growers that love natural rainfall."
+    ],
+    "advice": "🥗 A wonderful veggie to add volume and crunch to your meals without adding heavy calories!"
+  },
+  "beef": {
+    "display_name": "Beef",
+    "water_liters": 15400,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 14414,
+      "blue": 550,
+      "grey": 436
+    },
+    "tips": [
+      "Beef is highly protein-dense but requires extensive land and water resources for livestock feed crops.",
+      "It sits at the higher end of the water consumption spectrum compared to all other protein sources."
+    ],
+    "advice": "🥩 For matching your protein macros efficiently, lean chicken, fish, or plant powerhouses like paneer, soy chaap, and black chana offer spectacular protein-to-water ratios."
+  },
+  "blueberries": {
+    "display_name": "Blueberries",
+    "water_liters": 1450,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 900,
+      "blue": 450,
+      "grey": 100
+    },
+    "tips": [
+      "Blueberries are celebrated for their dense antioxidant profile, specifically anthocyanins.",
+      "Imported berries carry a higher transport and irrigation footprint than regional berries."
+    ],
+    "advice": "🫐 Excellent for immunity! For a local antioxidant powerhouse that matches the nutritional profile perfectly, try seasonal Indian gooseberries (amla) or black plum (jamun)."
+  },
+  "broccoli": {
+    "display_name": "Broccoli",
+    "water_liters": 1100,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 750,
+      "blue": 250,
+      "grey": 100
+    },
+    "tips": [
+      "Broccoli belongs to the cruciferous family, offering dense amounts of Vitamin C, folate, and fiber.",
+      "It requires structured irrigation to maintain its dense nutrient profile."
+    ],
+    "advice": "🥦 A crisp, nutritious green choice! Local green cabbage or fresh cauliflower offer identical cruciferous health benefits and digestive fiber."
+  },
+  "cabbage_patta_gobhi": {
+    "display_name": "Cabbage (Patta Gobhi)",
+    "water_liters": 380,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 280,
+      "blue": 70,
+      "grey": 30
+    },
+    "tips": [
+      "Patta Gobhi is incredibly budget-friendly, low in calories, and exceptionally water-efficient.",
+      "It delivers great gut-health benefits through high fiber content."
+    ],
+    "advice": "🥬 An environmental and nutritional superstar! Enjoy it thoroughly in your stir-fries, sabzis, or parathas."
+  },
+  "carrots_gajar": {
+    "display_name": "Carrots (Gajar)",
+    "water_liters": 355,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 250,
+      "blue": 75,
+      "grey": 30
+    },
+    "tips": [
+      "Gajar is packed with beta-carotene, which your body beautifully converts into Vitamin A for eye health.",
+      "Root vegetables are masters at absorbing groundwater efficiently, keeping their footprint minimal."
+    ],
+    "advice": "🥕 Brilliant choice! Keep eating them raw in salads or cooked in comforting winter sabzis."
+  },
+  "cauliflower_phool_gobhi": {
+    "display_name": "Cauliflower (Phool Gobhi)",
+    "water_liters": 420,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 310,
+      "blue": 80,
+      "grey": 30
+    },
+    "tips": [
+      "Phool gobhi is a staple in Northern and Central Indian households, offering low-carb volume to meals.",
+      "It has a very light water footprint, making it an excellent base for healthy cooking."
+    ],
+    "advice": "🥦 Wonderfully versatile! Grated cauliflower makes an excellent low-carb, water-friendly alternative to rice if you want to lower calories while staying full."
+  },
+  "cherries": {
+    "display_name": "Cherries",
+    "water_liters": 1600,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1100,
+      "blue": 400,
+      "grey": 100
+    },
+    "tips": [
+      "Cherries contain natural melatonin and anti-inflammatory compounds that support restful sleep.",
+      "Stone fruits require consistent orchard watering across seasons."
+    ],
+    "advice": "🍒 A delicious seasonal treat! Enjoy them in summer, or pick local red plums and grapes for similar sweet, antioxidant goodness."
+  },
+  "chicken": {
+    "display_name": "Chicken",
+    "water_liters": 4325,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 3654,
+      "blue": 455,
+      "grey": 216
+    },
+    "tips": [
+      "Chicken is one of the most efficient animal proteins available, utilizing significantly less water than red meat.",
+      "It provides lean, high-quality protein essential for muscle building and repair."
+    ],
+    "advice": "🍗 Outstanding lean protein source! To optimize your meal's overall footprint, pair your chicken dishes with water-efficient sides like wheat rotis, roasted carrots, or onions."
+  },
+  "chickpea_chana_kabuli": {
+    "display_name": "Chickpea (Kabuli Chana)",
+    "water_liters": 4055,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 3633,
+      "blue": 275,
+      "grey": 147
+    },
+    "tips": [
+      "Whether called Kabuli Chana or chickpeas, these legumes naturally enrich the soil with nitrogen.",
+      "They are brilliant providers of complex carbs and plant protein."
+    ],
+    "advice": "✅ A nutritional powerhouse! Keep enjoying your chole and chana salads—they are excellent for sustained fullness and muscle maintenance."
+  },
+  "chana_kala_black_chickpeas": {
+    "display_name": "Black Chickpeas (Kala Chana)",
+    "water_liters": 3800,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 3400,
+      "blue": 280,
+      "grey": 120
+    },
+    "tips": [
+      "Kala Chana is incredibly high in iron and dietary fiber, making it a staple in North and Central Indian fitness diets.",
+      "It is an exceptionally hardy crop that thrives with minimal rainwater."
+    ],
+    "advice": "💪 Incredible source of lean strength! Boiled or roasted kala chana (bhuna chana) is the perfect guilt-free snack to crush midday hunger pangs."
+  },
+  "corn_makka": {
+    "display_name": "Corn (Makka)",
+    "water_liters": 1222,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 947,
+      "blue": 201,
+      "grey": 74
+    },
+    "tips": [
+      "Makka provides lutein and zeaxanthin, which are highly beneficial for vision protection.",
+      "Whole corn is moderately efficient and highly energizing."
+    ],
+    "advice": "🌽 Enjoy your bhutta or sweet corn! Choosing fresh, whole corn over heavily processed corn syrups ensures you get maximum dietary fiber."
+  },
+  "cotton": {
+    "display_name": "Cotton",
+    "water_liters": 10000,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 6003,
+      "blue": 2535,
+      "grey": 1462
+    },
+    "tips": [
+      "Cotton fiber requires intensive irrigation and processing to convert into textiles.",
+      "It has a heavy industrial water footprint compared to natural food crops."
+    ],
+    "advice": "👕 For a mindful wardrobe, choosing locally made cotton garments, organic cotton, or practicing mindful buying goes a long way."
+  },
+  "cucumbers_kheera": {
+    "display_name": "Cucumber (Kheera)",
+    "water_liters": 350,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 240,
+      "blue": 90,
+      "grey": 20
+    },
+    "tips": [
+      "Kheera is made of 95% water, providing an excellent cooling effect for the body during hot Indian summers.",
+      "It is incredibly efficient to cultivate, requiring very light water inputs."
+    ],
+    "advice": "🥒 The ultimate hydration champion! Keep a generous portion of kheera salad with your meals to naturally promote digestion and fullness."
+  },
+  "egg": {
+    "display_name": "Egg",
+    "water_liters": 3300,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 2741,
+      "blue": 401,
+      "grey": 158
+    },
+    "tips": [
+      "Eggs possess the highest bioavailable protein quality (biological value) among whole foods.",
+      "They present a highly efficient and resource-friendly option within animal-based nutrition."
+    ],
+    "advice": "🥚 Exceptional choice for fitness! Whole eggs or egg whites are incredible for meeting your daily protein targets cleanly."
+  },
+  "garlic_lahsun": {
+    "display_name": "Garlic (Lahsun)",
+    "water_liters": 950,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 650,
+      "blue": 250,
+      "grey": 50
+    },
+    "tips": [
+      "Lahsun contains allicin, a powerful compound known for its immunity-boosting and heart-protective properties.",
+      "Because it is consumed in small, concentrated amounts daily, its micro-footprint is completely negligible."
+    ],
+    "advice": "🧄 Keep using it generously in your tadkas! It adds massive flavor and medicinal properties with zero caloric guilt."
+  },
+  "grapes_angoor": {
+    "display_name": "Grapes (Angoor)",
+    "water_liters": 610,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 420,
+      "blue": 150,
+      "grey": 40
+    },
+    "tips": [
+      "Angoor provides resveratrol, a powerful antioxidant that supports vascular health.",
+      "Nashik and Western India produce some of the most water-efficient and high-quality grapes globally."
+    ],
+    "advice": "🍇 Delightful, sweet snack! Great for quick hydration and a natural energy boost during active afternoons."
+  },
+  "groundnut_moongfali": {
+    "display_name": "Groundnut (Moongfali)",
+    "water_liters": 2782,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 2490,
+      "blue": 214,
+      "grey": 78
+    },
+    "tips": [
+      "Moongfali is a brilliant source of plant protein, Vitamin E, and heart-healthy monounsaturated fats.",
+      "It is widely grown across Western India as a rain-fed crop, making it highly resource-efficient."
+    ],
+    "advice": "🥜 A phenomenal local superfood! Whether eaten roasted or as peanut butter, it is an amazing budget-friendly fuel for muscle growth."
+  },
+  "lentils_dal_masoor_moong": {
+    "display_name": "Lentils (Masoor/Moong Dal)",
+    "water_liters": 1250,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1073,
+      "blue": 98,
+      "grey": 79
+    },
+    "tips": [
+      "Dals are the foundation of Indian vegetarian nutrition, offering a solid blend of protein and complex carbs.",
+      "They are highly sustainable crops that thrive naturally on rainwater."
+    ],
+    "advice": "🥣 Absolute gold standard! Regular intake of moong, masoor, and arhar dals keeps your muscles nourished and your digestion regular."
+  },
+  "lettuce": {
+    "display_name": "Lettuce",
+    "water_liters": 450,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 300,
+      "blue": 120,
+      "grey": 30
+    },
+    "tips": [
+      "Lettuce provides a crisp texture, low calories, and high moisture content for continental salads.",
+      "It requires precise, continuous shallow watering to stay crisp."
+    ],
+    "advice": "🥬 Great for salads! For a highly nutritious, iron-rich, and deeply flavorful local swap, fresh spinach (palak) or grated cabbage works wonderfully."
+  },
+  "mango_aam": {
+    "display_name": "Mango (Aam)",
+    "water_liters": 1800,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1600,
+      "blue": 130,
+      "grey": 70
+    },
+    "tips": [
+      "Aam is rich in Vitamin A and C, enhancing immunity and skin health naturally.",
+      "Indian mango orchards are deeply adapted to seasonal monsoon cycles."
+    ],
+    "advice": "🥭 The king of fruits! Enjoy your seasonal Alphonso, Kesar, or Dasheri completely guilt-free—they are nature's perfect summer reward."
+  },
+  "melons_tarbooj_kharbooja": {
+    "display_name": "Melons (Tarbooj/Kharbooja)",
+    "water_liters": 350,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 220,
+      "blue": 110,
+      "grey": 20
+    },
+    "tips": [
+      "Watermelons and muskmelons are packed with lycopene and essential electrolytes to prevent dehydration.",
+      "They utilize riverbed moisture efficiently, maintaining a beautifully low footprint."
+    ],
+    "advice": "🍉 The perfect summer shield! Snack on them generously to meet your hydration and sweetness cravings naturally."
+  },
+  "milk_doodh": {
+    "display_name": "Milk (Doodh)",
+    "water_liters": 1020,
+    "unit": "per litre",
+    "breakdown": {
+      "green": 876,
+      "blue": 87,
+      "grey": 57
+    },
+    "tips": [
+      "Doodh is an incredible source of complete protein (whey and casein) and highly absorbable calcium.",
+      "The footprint reflects the hydration and green fodder required to care for dairy cattle."
+    ],
+    "advice": "🥛 Essential for bone strength and daily protein! If you are tracking macros closely, low-fat milk gives you identical protein and calcium with fewer calories."
+  },
+  "mustard_sarson": {
+    "display_name": "Mustard (Sarson)",
+    "water_liters": 2178,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1897,
+      "blue": 181,
+      "grey": 100
+    },
+    "tips": [
+      "Sarson is deeply tied to North Indian culture, offering healthy fats via oils and iron via winter greens.",
+      "It is a resilient winter crop that utilizes soil moisture brilliantly."
+    ],
+    "advice": "🌱 Highly nutritious! Keep using mustard seeds for tempering or cold-pressed sarson oil for cooking to support heart health."
+  },
+  "oats": {
+    "display_name": "Oats",
+    "water_liters": 1400,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1100,
+      "blue": 220,
+      "grey": 80
+    },
+    "tips": [
+      "Oats contain soluble fiber that actively helps manage cholesterol levels.",
+      "They are highly efficient grains that present a wonderful breakfast foundation."
+    ],
+    "advice": "🥣 Fantastic morning fuel! For an equally fibrous, high-protein local option, try broken wheat daliya or roasted sattu porridge."
+  },
+  "onion_pyaz": {
+    "display_name": "Onion (Pyaz)",
+    "water_liters": 272,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 176,
+      "blue": 69,
+      "grey": 27
+    },
+    "tips": [
+      "Pyaz contains quercetin, a potent antioxidant with natural anti-inflammatory benefits.",
+      "Onions are exceptionally water-efficient, making them an environmental favorite."
+    ],
+    "advice": "🧅 The unsung hero of Indian cooking! Eat them raw, grilled, or in your curries to add depth and nutrients with minimal resource cost."
+  },
+  "oranges_santra": {
+    "display_name": "Orange (Santra)",
+    "water_liters": 560,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 380,
+      "blue": 140,
+      "grey": 40
+    },
+    "tips": [
+      "Santras from Nagpur and Central India are phenomenal sources of daily Vitamin C and dietary fiber.",
+      "Eating the whole fruit uses water much more efficiently than drinking processed juices."
+    ],
+    "advice": "🍊 Always opt for the whole fruit over juice! It keeps the satisfying fiber intact, slows sugar absorption, and maximizes hydration."
+  },
+  "peaches": {
+    "display_name": "Peaches",
+    "water_liters": 1300,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 950,
+      "blue": 280,
+      "grey": 70
+    },
+    "tips": [
+      "Peaches provide essential micronutrients and a sweet, juicy source of fiber.",
+      "They carry a standard footprint for temperate fruit tree orchards."
+    ],
+    "advice": "🍑 A wonderful sweet treat! Local plums or juicy seasonal pears offer a very similar macro-profile and refreshing taste."
+  },
+  "pears_nashpati": {
+    "display_name": "Pear (Nashpati)",
+    "water_liters": 920,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 680,
+      "blue": 180,
+      "grey": 60
+    },
+    "tips": [
+      "Nashpati is exceptionally high in insoluble fiber, promoting smooth, healthy digestion.",
+      "Local Indian varieties are hardy and well-adjusted to regional weather systems."
+    ],
+    "advice": "🍐 Excellent snack choice! Its high crunch and fiber keep you satiated for hours between larger meals."
+  },
+  "peas_matar": {
+    "display_name": "Peas (Matar)",
+    "water_liters": 1100,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 820,
+      "blue": 210,
+      "grey": 70
+    },
+    "tips": [
+      "Matar is a surprisingly good source of plant-based protein and essential B-vitamins.",
+      "As legumes, peas naturally enrich agricultural soils, making them highly eco-friendly."
+    ],
+    "advice": "🫛 Perfect green addition! Toss fresh or frozen peas into your poha, upma, or curries to add an easy punch of fiber and protein."
+  },
+  "peppers_shimla_mirch": {
+    "display_name": "Bell Pepper (Shimla Mirch)",
+    "water_liters": 360,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 240,
+      "blue": 90,
+      "grey": 30
+    },
+    "tips": [
+      "Shimla Mirch (green, red, or yellow) is packed with fat-soluble vitamins and metabolism-boosting capsaicin.",
+      "They have a very modest water requirement, making them highly sustainable."
+    ],
+    "advice": "🫑 Excellent low-calorie volume! Use them liberally to add crunch and rich color to your stir-fries, omelets, and subzis."
+  },
+  "pineapples": {
+    "display_name": "Pineapples",
+    "water_liters": 960,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 680,
+      "blue": 220,
+      "grey": 60
+    },
+    "tips": [
+      "Pineapples contain bromelain, a natural enzyme that aids in the efficient digestion and breakdown of proteins.",
+      "They are sturdy tropical plants that make great use of natural rain conditions."
+    ],
+    "advice": "🍍 Wonderful post-meal digestive fruit! Enjoy a few slices fresh to maximize the active enzymes."
+  },
+  "plums_aloo_bukhara": {
+    "display_name": "Plum (Aloo Bukhara)",
+    "water_liters": 850,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 610,
+      "blue": 190,
+      "grey": 50
+    },
+    "tips": [
+      "Aloo Bukhara is excellent for bone health and provides natural antioxidants to combat oxidative stress.",
+      "They are highly climate-resilient stone fruits when sourced locally."
+    ],
+    "advice": "🍑 A tart and sweet nutritional gem! Perfect as an afternoon snack to curb sugar cravings without any refined processing."
+  },
+  "potato_aloo": {
+    "display_name": "Potato (Aloo)",
+    "water_liters": 287,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 197,
+      "blue": 63,
+      "grey": 27
+    },
+    "tips": [
+      "Aloo is one of the most carb-efficient and calorie-dense crops per liter of water in existence.",
+      "It provides vital potassium and Vitamin B6, making it an excellent, clean source of energy."
+    ],
+    "advice": "🥔 A true culinary powerhouse! To keep things fitness-friendly, enjoy them boiled, baked, or air-fried rather than deep-fried to maximize clean carbs."
+  },
+  "pumpkins_kaddu": {
+    "display_name": "Pumpkin (Kaddu)",
+    "water_liters": 340,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 220,
+      "blue": 95,
+      "grey": 25
+    },
+    "tips": [
+      "Kaddu is low in calories but rich in Vitamin A and lutein for vision support.",
+      "Creeping gourds utilize ground moisture incredibly well, resulting in a tiny water footprint."
+    ],
+    "advice": "🎃 Soft and comforting! A savory kaddu sabzi or soup offers high-volume fullness for very few calories."
+  },
+  "quinoa": {
+    "display_name": "Quinoa",
+    "water_liters": 1500,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1100,
+      "blue": 300,
+      "grey": 100
+    },
+    "tips": [
+      "Quinoa is a complete plant protein, containing all nine essential amino acids.",
+      "It requires dedicated irrigation setups when grown outside its traditional dry mountain habitats."
+    ],
+    "advice": "🥣 Great for whole protein macros! For an incredible local alternative that mirrors this exact amino acid profile and high fiber, look no further than amaranth (rajgira) or broken daliya."
+  },
+  "rice_chawal": {
+    "display_name": "Rice (Chawal)",
+    "water_liters": 2497,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1358,
+      "blue": 897,
+      "grey": 242
+    },
+    "tips": [
+      "Chawal is an easily digestible, gluten-free grain that has sustained generations cleanly.",
+      "Standard paddy fields require continuous water immersion to protect the young crops."
+    ],
+    "advice": "🍚 An irreplaceable comfort food staple! Pairing it with an equal volume of protein-rich dal or mixing it with millets like brown top or foxtail creates a perfectly balanced, macro-friendly meal."
+  },
+  "soybean_bari": {
+    "display_name": "Soybean (Bari)",
+    "water_liters": 2145,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1869,
+      "blue": 158,
+      "grey": 118
+    },
+    "tips": [
+      "Soy chunks (bari) contain a massive 52% bioavailable protein content, making them a vegetarian goldmine.",
+      "Soybeans produce an incredible amount of protein per unit of water utilized."
+    ],
+    "advice": "🌱 The ultimate vegetarian budget protein! Keep adding soy granules or chunks to your rice, bhurjis, and curries to smash your daily fitness targets."
+  },
+  "spinach_palak": {
+    "display_name": "Spinach (Palak)",
+    "water_liters": 420,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 290,
+      "blue": 100,
+      "grey": 30
+    },
+    "tips": [
+      "Palak is highly dense in non-heme iron, folate, and essential magnesium for muscle relaxation.",
+      "Leafy greens grow quickly and require very little total water over their short lifespan."
+    ],
+    "advice": "🥬 Nutritional royalty! Palak is a beautiful way to bulk up your dals or rotis with iron and zero caloric overhead."
+  },
+  "squash_chayote": {
+    "display_name": "Squash (Chayote)",
+    "water_liters": 390,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 260,
+      "blue": 100,
+      "grey": 30
+    },
+    "tips": [
+      "Squashes are incredibly low on the glycemic index and support smooth digestion.",
+      "They display high water efficiency, growing easily with routine seasonal rain."
+    ],
+    "advice": "🥒 A light, crisp addition! Use it interchangeably with local gourds to keep your summer stir-fries refreshing and light."
+  },
+  "strawberries": {
+    "display_name": "Strawberries",
+    "water_liters": 1100,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 750,
+      "blue": 280,
+      "grey": 70
+    },
+    "tips": [
+      "Strawberries deliver brilliant amounts of Vitamin C and skin-loving antioxidants per serving.",
+      "Mahabaleshwar and local Indian hubs cultivate highly water-efficient strawberry varieties."
+    ],
+    "advice": "🍓 Enjoy them fresh! Savor them during winter peak season when they are naturally sweet, nutrient-dense, and highly local."
+  },
+  "sugar_cheeni": {
+    "display_name": "Sugar (Cheeni)",
+    "water_liters": 1782,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1565,
+      "blue": 179,
+      "grey": 38
+    },
+    "tips": [
+      "Refined cheeni provides fast, immediate glucose calories for the brain and muscles.",
+      "Sugarcane requires sustained irrigation over its long 12-month growth cycle."
+    ],
+    "advice": "🍬 Pure energy! For a shift toward raw minerals, choosing organic jaggery (gur) or raw khandsari provides a richer depth of iron and potassium alongside sweetness."
+  },
+  "sugarcane_ganna": {
+    "display_name": "Sugarcane (Ganna)",
+    "water_liters": 1500,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1150,
+      "blue": 280,
+      "grey": 70
+    },
+    "tips": [
+      "Fresh ganna juice is an exceptional natural electrolyte rejuvenator, perfect for post-workout recovery.",
+      "The plant is highly efficient at converting solar energy into sweet, hydrating biomass."
+    ],
+    "advice": "🥤 A glorious natural energy drink! Enjoy a cold glass of fresh sugarcane juice with ginger and mint to combat summer fatigue instantly."
+  },
+  "tomato_tamatar": {
+    "display_name": "Tomato (Tamatar)",
+    "water_liters": 214,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 143,
+      "blue": 50,
+      "grey": 21
+    },
+    "tips": [
+      "Tamatar is loaded with lycopene, an antioxidant that becomes even more bioavailable when cooked with healthy fats.",
+      "Tomatoes stand among the absolute lowest water-consuming crops in the agricultural world."
+    ],
+    "advice": "🍅 An environmental champion! Use them abundantly in your salads, soups, and daily gravy bases to boost skin health and hydration."
+  },
+  "wheat_gehun": {
+    "display_name": "Wheat (Gehun)",
+    "water_liters": 1827,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 1369,
+      "blue": 342,
+      "grey": 116
+    },
+    "tips": [
+      "Gehun provides the essential complex carbohydrates and protein gluten that form the structural backbone of Indian rotis.",
+      "Wheat is a highly efficient winter rabi crop, utilizing seasonal dew and soil moisture perfectly."
+    ],
+    "advice": "🌾 The ultimate daily staple! Keep enjoying your rotis. Opting for whole-wheat or stone-ground (chakki) atta ensures you keep 100% of the gut-healthy bran and fiber intact."
+  },
+  "zucchini": {
+    "display_name": "Zucchini",
+    "water_liters": 410,
+    "unit": "per kg",
+    "breakdown": {
+      "green": 290,
+      "blue": 95,
+      "grey": 25
+    },
+    "tips": [
+      "Zucchini is a fantastic low-calorie vegetable option to fill out continental bowls and bakes.",
+      "It shares a highly water-efficient growth map with local summer squashes."
+    ],
+    "advice": "🥒 Crisp and highly nutritious! For a perfect local alternative that mirrors this exact low-carb, hydrating profile, use fresh sponge gourd (torai) or bottle gourd (lauki)."
+  },
+  "roti_alone": {
+    "display_name": "Roti",
+    "water_liters": 400,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 300,
+      "blue": 73,
+      "grey": 27
+    },
+    "tips": [
+      "A standard whole-wheat roti is a brilliant, low-fat source of clean, sustaining energy.",
+      "Wheat requires substantially less total water to grow per kg than white rice."
+    ],
+    "advice": "🫓 The foundation of daily strength! Keep enjoying your rotis. To boost the protein content effortlessly, try a 4:1 blend of whole wheat and roasted chana flour (sattu)."
+  },
+  "dal_chawal": {
+    "display_name": "Dal Chawal",
+    "water_liters": 623,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 405,
+      "blue": 166,
+      "grey": 53
+    },
+    "tips": [
+      "This iconic combo forms a complete amino acid profile, creating a high-quality complete protein for vegetarians.",
+      "The exceptional water efficiency of lentils naturally balances the water requirements of Basmati rice."
+    ],
+    "advice": "🍚 Pure comfort and complete nutrition! To step up the fiber game, trying a mix of unpolished rice or a 50:50 blend with regional millets works wonderfully."
+  },
+  "rajma_chawal": {
+    "display_name": "Rajma Chawal",
+    "water_liters": 617,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 477,
+      "blue": 97,
+      "grey": 43
+    },
+    "tips": [
+      "The undisputed classic of North Indian food! Rajma (kidney beans) supplies excellent iron, potassium, and plant protein.",
+      "Legumes like rajma actively fix nitrogen in the earth, minimizing the need for synthetic inputs."
+    ],
+    "advice": "❤️ Absolute fitness comfort food! Enjoy it fully. To add a modern health twist, pair it with a big bowl of onion-cucumber raita to add probiotic protein."
+  },
+  "chole_chawal": {
+    "display_name": "Chole Chawal",
+    "water_liters": 633,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 483,
+      "blue": 103,
+      "grey": 47
+    },
+    "tips": [
+      "Chole brings a dense, rich texture that pairs beautifully with fluffy rice, creating a highly satisfying, low-fat meal.",
+      "Spicing chole with amla or traditional spices maximizes iron absorption from the chickpeas."
+    ],
+    "advice": "🍛 A delicious, hearty protein meal! To keep it extra light and support muscle recovery, keep the gravy tomato-heavy and enjoy it with a side of fresh sirka pyaz."
+  },
+  "kadi_chawal": {
+    "display_name": "Kadhi Chawal",
+    "water_liters": 517,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 373,
+      "blue": 97,
+      "grey": 47
+    },
+    "tips": [
+      "Kadi combines sour dahi and besan (gram flour), yielding a beautiful fermented, gut-friendly protein sauce.",
+      "Besan is made from chana dal, which is an exceptionally water-friendly and sustainable ingredient."
+    ],
+    "advice": "🥣 Deeply comforting and cooling! To enhance the protein macros further, feel free to drop in steamed moong dal mangochis (dumplings) instead of deep-fried pakodas."
+  },
+  "khichdi_with_ghee": {
+    "display_name": "Khichdi with Ghee",
+    "water_liters": 550,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 373,
+      "blue": 127,
+      "grey": 50
+    },
+    "tips": [
+      "A soothing blend of rice and yellow moong dal that is exceptionally easy on the stomach and quick to absorb.",
+      "A teaspoon of pure ghee optimizes the absorption of fat-soluble vitamins without altering the water footprint."
+    ],
+    "advice": "🥣 Perfect recovery meal! To supercharge its vitamins and minerals, finely chop and toss in water-efficient veggies like carrots, beans, and bottle gourd."
+  },
+  "dal_baati_churma": {
+    "display_name": "Dal Baati Churma",
+    "water_liters": 733,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 583,
+      "blue": 103,
+      "grey": 47
+    },
+    "tips": [
+      "The pride of Rajasthan and Central India! Mixed panchmel dal packs an extraordinary variety of vegetarian proteins.",
+      "Baati is crafted from whole wheat, which represents a highly robust and water-efficient grain base."
+    ],
+    "advice": "🫓 A glorious, dense celebration meal! It gives great sustained energy. Balance the rich meal by ensuring your portion of high-protein mixed dal matches or exceeds the baati volume."
+  },
+  "poha": {
+    "display_name": "Poha",
+    "water_liters": 700,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 393,
+      "blue": 237,
+      "grey": 70
+    },
+    "tips": [
+      "The iconic breakfast of MP and Maharashtra! Flattened rice bypasses intensive boiling cycles, saving water during production.",
+      "The addition of roasted peanuts brings essential healthy fats and an irresistible crunch."
+    ],
+    "advice": "🍋 Light and energizing! To maximize the protein macro of your morning breakfast, stir in soft steamed sprouts or fresh paneer cubes directly."
+  },
+  "misal_pav": {
+    "display_name": "Misal Pav",
+    "water_liters": 383,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 280,
+      "blue": 73,
+      "grey": 30
+    },
+    "tips": [
+      "Misal relies on sprouted matki (moth beans), which are legendary for their ability to thrive in dry, arid regions.",
+      "Sprouting multiplies the available Vitamin C and enhances the bioavailability of protein."
+    ],
+    "advice": "🌶️ Bold and deeply nutritious! To align it perfectly with fitness goals, swap regular pav for whole-wheat or pav made from multi-grains."
+  },
+  "vada_pav": {
+    "display_name": "Vada Pav",
+    "water_liters": 317,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 230,
+      "blue": 60,
+      "grey": 27
+    },
+    "tips": [
+      "Mumbai's signature street food utilizes a potato filling coated in high-protein besan (chana flour).",
+      "Both potatoes and chana are highly efficient water users, making this snack inherently sustainable."
+    ],
+    "advice": "🧄 Pure joy in every bite! To enjoy it with a lighter macro profile, air-frying the batata vada gives you that exact garlicky bliss with minimal oil."
+  },
+  "aloo_paratha_with_dahi": {
+    "display_name": "Aloo Paratha with Dahi",
+    "water_liters": 327,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 237,
+      "blue": 60,
+      "grey": 30
+    },
+    "tips": [
+      "A beautiful combination where both the wheat dough and potato filling are exceptionally water-efficient.",
+      "Thick dahi supplies the calcium and protein necessary to slow down carbohydrate digestion smoothly."
+    ],
+    "advice": "🥔 Hearty and satisfying! To level up the muscle-building potential, mix grated paneer or roasted sattu into your aloo filling."
+  },
+  "paneer_paratha": {
+    "display_name": "Paneer Paratha",
+    "water_liters": 617,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 463,
+      "blue": 103,
+      "grey": 50
+    },
+    "tips": [
+      "A premium breakfast choice that delivers high protein and calcium directly inside an efficient whole-wheat crust.",
+      "Paneer offers a steady release of casein protein, keeping you full for hours."
+    ],
+    "advice": "🧀 Superb protein fuel! Kneading the dough with spinach puree (palak paneer paratha) adds fantastic iron and fiber with zero extra water stress."
+  },
+  "gobi_paratha": {
+    "display_name": "Gobi Paratha",
+    "water_liters": 240,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 177,
+      "blue": 43,
+      "grey": 20
+    },
+    "tips": [
+      "Grate cauliflower into wheat dough for a high-volume breakfast that remains exceptionally low in its water footprint.",
+      "Cruciferous vegetables offer excellent sulfur compounds that aid internal detoxification."
+    ],
+    "advice": "🥦 Light and comforting! Enjoy it with a side of fresh homemade green mint-coriander chutney for an extra splash of vitamins."
+  },
+  "mooli_paratha": {
+    "display_name": "Mooli Paratha",
+    "water_liters": 227,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 163,
+      "blue": 47,
+      "grey": 17
+    },
+    "tips": [
+      "Radish (mooli) is a fantastic root veggie that uses minimal water and provides incredible digestive enzymes.",
+      "It adds a sharp, traditional flavor while increasing the water content of the paratha naturally."
+    ],
+    "advice": "🌱 A brilliant winter classic! Don't throw away the green mooli leaves—chop them finely into the stuffing for a massive iron and fiber boost."
+  },
+  "methi_thepla": {
+    "display_name": "Methi Thepla",
+    "water_liters": 283,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 213,
+      "blue": 50,
+      "grey": 20
+    },
+    "tips": [
+      "The pride of Gujarat! Fresh fenugreek leaves (methi) are wonderful for insulin sensitivity and glucose control.",
+      "Thepla balances gram flour and wheat, optimizing the vegetarian protein score beautifully."
+    ],
+    "advice": "🌿 Traveling companion and nutrition packet! Pair it with fresh homemade curd to turn this travel-friendly snack into a complete muscle-recovery breakfast."
+  },
+  "dhokla_khaman": {
+    "display_name": "Dhokla / Khaman",
+    "water_liters": 367,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 273,
+      "blue": 67,
+      "grey": 27
+    },
+    "tips": [
+      "Steamed, fermented chana dal batter creates a fluffy snack that requires absolutely zero oil for cooking.",
+      "Fermentation naturally introduces B-complex vitamins into the snack, making it highly nutritious."
+    ],
+    "advice": "🟡 An outstanding fitness snack! Low calorie, high protein, and completely steamed. Keep the sweet tempering light to maintain its clean nutritional profile."
+  },
+  "khandvi": {
+    "display_name": "Khandvi",
+    "water_liters": 327,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 247,
+      "blue": 57,
+      "grey": 23
+    },
+    "tips": [
+      "Made by cooking besan and buttermilk into smooth, elegant rolls that melt in your mouth.",
+      "Buttermilk naturally lowers the overall footprint compared to using heavy creams or milk."
+    ],
+    "advice": "🌀 Light and velvety! Garnish with a generous sprinkle of fresh grated coconut and sesame seeds to introduce excellent healthy fats."
+  },
+  "pav_bhaji": {
+    "display_name": "Pav Bhaji",
+    "water_liters": 350,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 253,
+      "blue": 70,
+      "grey": 27
+    },
+    "tips": [
+      "Bhaji is a master disguise for a massive variety of healthy vegetables like cauliflower, peas, carrots, and potatoes.",
+      "The combined water footprint of these mixed vegetables is remarkably small and efficient."
+    ],
+    "advice": "🫕 A brilliant vegetable feast! To elevate the protein content to match your workout goals, simply mash 100g of soft paneer or boiled tofu directly into the hot bhaji."
+  },
+  "baingan_bharta_with_roti": {
+    "display_name": "Baingan Bharta with Roti",
+    "water_liters": 263,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 193,
+      "blue": 50,
+      "grey": 20
+    },
+    "tips": [
+      "Eggplant (baingan) is incredibly low in calories and possesses high amounts of nasunin, an antioxidant that protects brain cells.",
+      "Baingan is highly sustainable, requiring very little managed irrigation."
+    ],
+    "advice": "🍆 Roasted smokey goodness! This meal is highly efficient and fiber-rich. Enjoy it alongside cold chaas to create a fully hydrating dinner."
+  },
+  "bhindi_masala_with_roti": {
+    "display_name": "Bhindi Masala with Roti",
+    "water_liters": 273,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 203,
+      "blue": 50,
+      "grey": 20
+    },
+    "tips": [
+      "Okra (bhindi) contains a thick soluble fiber that is incredibly soothing for the intestinal tract.",
+      "Bhindi loves the warm Indian climate, growing beautifully with natural rainfall seasonal cycles."
+    ],
+    "advice": "🌵 A beloved summer staple! Cook it with plenty of onions and a dash of amchur (mango powder) to keep it light, crisp, and nutrient-dense."
+  },
+  "aloo_gobi_with_roti": {
+    "display_name": "Aloo Gobi with Roti",
+    "water_liters": 237,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 173,
+      "blue": 47,
+      "grey": 17
+    },
+    "tips": [
+      "An everyday classic across North India. Both potato and cauliflower excel at turning soil nutrients into delicious volume.",
+      "This combination boasts one of the most eco-friendly water footprints for a hot lunch."
+    ],
+    "advice": "🥔 Perfect everyday fuel! To easily add a protein layer, throw in a handful of green peas or enjoy it with a bowl of simple moong dal."
+  },
+  "palak_paneer_with_roti": {
+    "display_name": "Palak Paneer with Roti",
+    "water_liters": 550,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 413,
+      "blue": 97,
+      "grey": 40
+    },
+    "tips": [
+      "A magnificent union where the low-footprint iron of spinach elegantly pairs with the muscle-building protein of paneer.",
+      "The calcium in paneer and the vitamins in palak offer a highly comprehensive nutritional profile."
+    ],
+    "advice": "🥬 Exceptional vegetarian fitness meal! Keep enjoying it. To lighten the dish for daily dinners, use low-fat home-set paneer."
+  },
+  "matar_paneer_with_roti": {
+    "display_name": "Matar Paneer with Roti",
+    "water_liters": 570,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 430,
+      "blue": 100,
+      "grey": 40
+    },
+    "tips": [
+      "Matar and paneer complement each other, with green peas adding essential fiber and paneer delivering rich amino acids.",
+      "This remains a festive yet highly sustainable staple for family dinners."
+    ],
+    "advice": "🫛 Hearty and protein-dense! Enjoy this with a squeeze of fresh lemon juice over the curry to enhance overall iron absorption."
+  },
+  "shahi_paneer_with_naan": {
+    "display_name": "Shahi Paneer with Naan",
+    "water_liters": 867,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 650,
+      "blue": 150,
+      "grey": 67
+    },
+    "tips": [
+      "Naan utilizes refined maida, while the shahi gravy features rich dairy fats, cashews, and paneer.",
+      "This creates a highly indulgent meal that concentrates premium kitchen ingredients together."
+    ],
+    "advice": "👑 A royal treat! To get that exact rich flavor on weekdays with half the calories, swap the heavy cream for a smooth whisked curd paste and enjoy it with a whole-wheat tandoori roti."
+  },
+  "kadhai_chicken_with_roti": {
+    "display_name": "Kadhai Chicken with Roti",
+    "water_liters": 700,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 550,
+      "blue": 103,
+      "grey": 47
+    },
+    "tips": [
+      "Lean chicken cooked with water-efficient bell peppers and onions provides an incredibly clean, high-protein muscle fuel.",
+      "Pairing it with whole-wheat roti creates an outstanding macro balance for recovery."
+    ],
+    "advice": "🍗 Top-tier fitness choice! Keep the oil moderate to let the pure, high-quality protein and fresh pepper antioxidants shine."
+  },
+  "butter_chicken_with_naan": {
+    "display_name": "Butter Chicken with Naan",
+    "water_liters": 1067,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 827,
+      "blue": 170,
+      "grey": 70
+    },
+    "tips": [
+      "This legendary dish combines chicken with a rich tomato gravy emulsified with butter, cream, and refined naan bread.",
+      "Chicken remains an incredibly eco-efficient choice for poultry compared to larger livestock alternatives."
+    ],
+    "advice": "🔥 An iconic flavor experience! When prepping it at home, you can achieve that identical silky, comforting texture by blending roasted tomatoes with low-fat milk or a cashew paste."
+  },
+  "chicken_tikka_biryani": {
+    "display_name": "Chicken Tikka Biryani",
+    "water_liters": 1133,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 907,
+      "blue": 153,
+      "grey": 73
+    },
+    "tips": [
+      "Biryani layers long-grain aromatic basmati with spiced chicken, creating a globally loved, protein-packed celebration dish.",
+      "Chicken is highly sustainable, requiring minimal water inputs compared to mutton."
+    ],
+    "advice": "🍗 A celebration of pure flavor! Enjoy every grain. Serving it alongside a big bowl of onion-mint cucumber raita adds great digestive enzymes and additional lean protein."
+  },
+  "mutton_biryani": {
+    "display_name": "Mutton Biryani",
+    "water_liters": 2267,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 1833,
+      "blue": 317,
+      "grey": 117
+    },
+    "tips": [
+      "Mutton (goat meat) possesses a distinct, rich iron and zinc profile that makes it highly strengthening.",
+      "Goats require steady pasture foraging, which naturally increases the cumulative water footprint over time."
+    ],
+    "advice": "🍖 A deeply rich, traditional delicacy! To balance your meal's macros beautifully, pair your mutton portions with water-efficient basmati rice and plenty of fresh salad."
+  },
+  "egg_curry_with_rice": {
+    "display_name": "Egg Curry with Rice",
+    "water_liters": 650,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 470,
+      "blue": 127,
+      "grey": 53
+    },
+    "tips": [
+      "Eggs bring premium biological protein, while a tomato-onion gravy keeps the vegetable foundation light and sustainable.",
+      "This serves as an excellent, fast-cooking weekday dinner solution for active individuals."
+    ],
+    "advice": "🥚 Brilliant budget-friendly fitness meal! Feel free to add an extra boiled egg white into the curry to maximize pure protein without adding heavy fats."
+  },
+  "egg_bhurji_with_pav": {
+    "display_name": "Egg Bhurji with Pav",
+    "water_liters": 467,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 350,
+      "blue": 83,
+      "grey": 33
+    },
+    "tips": [
+      "A fast, high-protein street food staple made by scrambling eggs with a mountain of fresh onions, tomatoes, and green chilies.",
+      "The heavy addition of vegetables naturally lowers the net footprint per plate."
+    ],
+    "advice": "🍳 Outstanding post-workout fuel! To keep the carbohydrate profile complex and slow-burning, swap regular white pav for whole-wheat toast."
+  },
+  "paneer_bhurji_with_pav": {
+    "display_name": "Paneer Bhurji with Pav",
+    "water_liters": 650,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 493,
+      "blue": 107,
+      "grey": 50
+    },
+    "tips": [
+      "Fresh crumbled paneer scrambled with local spices provides a fast, calcium-rich, and high-protein vegetarian meal.",
+      "Paneer offers robust muscle protection via its natural branched-chain amino acids (BCAAs)."
+    ],
+    "advice": "🧀 Super satisfying vegetarian protein! For an amazing macro tweak that drops calories while keeping protein identical, try a 50:50 blend of paneer and fresh crumbled tofu."
+  },
+  "soy_chaap_curry": {
+    "display_name": "Soy Chaap Curry",
+    "water_liters": 650,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 527,
+      "blue": 73,
+      "grey": 50
+    },
+    "tips": [
+      "Soybeans are an absolute miracle of plant efficiency, yielding top-tier vegetarian protein with very minimal land use.",
+      "Soy chaap delivers a satisfyingly dense, meaty texture that absorbs curry spices flawlessly."
+    ],
+    "advice": "🍢 An absolute goldmine for plant-based strength! Keep the gravy tomato-and-onion focused to let the clean soy protein fuel your muscles efficiently."
+  },
+  "fish_curry_with_rice": {
+    "display_name": "Fish Curry with Rice",
+    "water_liters": 700,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 433,
+      "blue": 183,
+      "grey": 83
+    },
+    "tips": [
+      "Fish provides unique omega-3 fatty acids, which are crucial for brain health and minimizing internal inflammation.",
+      "Freshwater or marine fishing avoids large agricultural crop footprints entirely."
+    ],
+    "advice": "🐟 Outstanding source of lean fats and high protein! Pairing it with easily digestible steamed white rice makes it an optimal clean meal for recovery."
+  },
+  "idli_sambar": {
+    "display_name": "Idli Sambar",
+    "water_liters": 483,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 317,
+      "blue": 117,
+      "grey": 50
+    },
+    "tips": [
+      "Steamed and fermented rice-urad dal cakes create an incredibly light, gut-friendly breakfast that is easy to digest.",
+      "Sambar is a nutritional blessing, packed with water-efficient lentils and various seasonal gourds."
+    ],
+    "advice": "⚪ Gentle, probiotic, and clean! To boost the protein matrix effortlessly, add a handful of boiled kala chana or sprouts directly into your hot sambar bowl."
+  },
+  "masala_dosa": {
+    "display_name": "Masala Dosa",
+    "water_liters": 517,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 340,
+      "blue": 127,
+      "grey": 50
+    },
+    "tips": [
+      "A crisp, golden crepe made from fermented batter, filled with a seasoned, water-efficient potato mash.",
+      "Urad dal in the batter enhances the overall plant protein profile naturally."
+    ],
+    "advice": "🥞 Delicious and deeply satisfying! To enhance the protein content, try ordering a Paneer Dosa or a Sprouted Moong Dosa next time."
+  },
+  "medu_vada": {
+    "display_name": "Medu Vada",
+    "water_liters": 417,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 303,
+      "blue": 80,
+      "grey": 33
+    },
+    "tips": [
+      "Crafted completely from skinless black gram (urad dal), making this snack highly rich in iron and protein.",
+      "Urad dal is exceptionally water-resilient, requiring very modest rainfall to mature."
+    ],
+    "advice": "🍩 Crisp and savory! To get that exact crunchy joy with zero frying oil, making them in an appe/appam pan or air-fryer works brilliantly."
+  },
+  "upma": {
+    "display_name": "Upma",
+    "water_liters": 367,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 270,
+      "blue": 70,
+      "grey": 27
+    },
+    "tips": [
+      "Made from semolina (suji/rava), which comes from whole wheat, rendering it highly water-efficient.",
+      "Tossing in carrots, peas, and roasted mustard seeds enhances its fiber and antioxidant baseline easily."
+    ],
+    "advice": "🥣 Fast and energetic morning fuel! To bump up the protein macros significantly, try making a high-protein Oats Upma or a delicious Vermicelli (sewiyan) Upma packed with peanuts."
+  },
+  "poha_jalebi": {
+    "display_name": "Poha & Jalebi",
+    "water_liters": 650,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 437,
+      "blue": 160,
+      "grey": 53
+    },
+    "tips": [
+      "The famous twin breakfast of Indore combines savory, light poha with a sweet, crispy fermented jalebi.",
+      "Poha keeps the base clean and light, while the sugar in jalebi gives a rapid burst of energy."
+    ],
+    "advice": "🍋 A beautiful cultural experience of sweet and savory! Savor it as a weekend reward. Enjoying a bigger portion of peanut-heavy poha keeps you full and fueled for the day."
+  },
+  "samosa": {
+    "display_name": "Samosa",
+    "water_liters": 217,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 160,
+      "blue": 40,
+      "grey": 17
+    },
+    "tips": [
+      "An absolute staple snack featuring spiced potatoes and green peas enclosed in a crisp wheat pastry.",
+      "Potatoes, peas, and wheat are all magnificent, highly water-efficient crops."
+    ],
+    "advice": "🔺 Pure nostalgia! For a wonderful home version that cuts back on heavy frying oil, brushing with ghee and baking or air-frying creates a stunningly crisp crust."
+  },
+  "kachori_pyaz": {
+    "display_name": "Kachori (Onion)",
+    "water_liters": 193,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 137,
+      "blue": 40,
+      "grey": 17
+    },
+    "tips": [
+      "A golden, flaky pastry stuffed with water-efficient, savory onions and unique spices.",
+      "Onions hold an incredibly low water footprint, making this filling exceptionally sustainable."
+    ],
+    "advice": "🧅 Crispy and aromatic! Pair your kachori with a refreshing, cooling mint chutney to support smooth and easy digestion."
+  },
+  "chole_bhature": {
+    "display_name": "Chole Bhature",
+    "water_liters": 700,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 540,
+      "blue": 107,
+      "grey": 53
+    },
+    "tips": [
+      "The undisputed heavy breakfast king of North India! Bhatura uses maida, while chole provides exceptional plant protein.",
+      "Chickpeas use water very efficiently, forming a highly robust agricultural foundation."
+    ],
+    "advice": "🥖 A legendary comfort feast! To balance the heavy macros perfectly, relish it with a side of pickled ginger and fresh, water-rich raw onions."
+  },
+  "puri_aloo_sabzi": {
+    "display_name": "Puri with Aloo Sabzi",
+    "water_liters": 283,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 207,
+      "blue": 53,
+      "grey": 23
+    },
+    "tips": [
+      "Both wheat puris and spicy potato sabzi represent highly efficient water users, making this meal naturally green.",
+      "It provides immediate, easily accessible glycogen energy for active days."
+    ],
+    "advice": "🥔 Warm and traditional! To enjoy this clean energy frequently on weekdays, swap deep-fried puris for soft whole-wheat rotis."
+  },
+  "suji_halwa_sheera": {
+    "display_name": "Suji Halwa (Sheera)",
+    "water_liters": 383,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 283,
+      "blue": 73,
+      "grey": 27
+    },
+    "tips": [
+      "Crafted from semolina, ghee, and sugar, this comforting sweet is highly efficient due to its wheat base.",
+      "Suji provides iron and quick carbohydrates that are ideal for celebrating sweet moments."
+    ],
+    "advice": "🥣 Comforting and nostalgic! Adding a handful of slivered almonds or chopped walnuts adds great healthy fats and protein to steady the sugar release."
+  },
+  "moong_dal_halwa": {
+    "display_name": "Moong Dal Halwa",
+    "water_liters": 550,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 430,
+      "blue": 80,
+      "grey": 40
+    },
+    "tips": [
+      "Moong dal is incredibly water-efficient and naturally packs high amounts of plant-based protein.",
+      "Cooking it with ghee and sugar creates a dense, sustaining dessert rich in essential amino acids."
+    ],
+    "advice": "🟡 Rich and satisfying! Because it is naturally pulse-based, it offers a superior protein profile compared to purely starch-based desserts."
+  },
+  "gajar_ka_halwa": {
+    "display_name": "Gajar Ka Halwa",
+    "water_liters": 250,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 180,
+      "blue": 53,
+      "grey": 17
+    },
+    "tips": [
+      "Winter's favorite sweet uses water-efficient carrots as its base, ensuring high fiber and Vitamin A.",
+      "Simmering it with milk concentrates nutrients beautifully, keeping the footprint moderate."
+    ],
+    "advice": "🥕 A brilliant winter joy! To keep the macros incredibly lean, try making it with low-fat milk and a dash of raw jaggery."
+  },
+  "gulab_jamun": {
+    "display_name": "Gulab Jamun",
+    "water_liters": 733,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 593,
+      "blue": 97,
+      "grey": 43
+    },
+    "tips": [
+      "Made from reduced milk solids (khoya) fried and soaked in syrup, rendering it a highly concentrated dairy dessert.",
+      "Dairy products hold a premium footprint because of the resources required to care for cattle sustainably."
+    ],
+    "advice": "🧆 Pure festive bliss! Savor every single bite. Sharing a warm portion with family is a beautiful way to enjoy sweets mindfully."
+  },
+  "rasgulla": {
+    "display_name": "Rasgulla",
+    "water_liters": 483,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 383,
+      "blue": 70,
+      "grey": 30
+    },
+    "tips": [
+      "Rasgulla is made from fresh chenna (paneer), meaning it inherently retains a high amount of dairy protein.",
+      "Because it is boiled in light sugar syrup instead of deep-fried, it stays exceptionally low in fat."
+    ],
+    "advice": "⚪ A phenomenal, lower-calorie sweet choice! Squeezing out a bit of the sugar syrup before eating gives you a high-protein, low-fat treat."
+  },
+  "rasmalai": {
+    "display_name": "Rasmalai",
+    "water_liters": 617,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 497,
+      "blue": 80,
+      "grey": 40
+    },
+    "tips": [
+      "Chenna discs soaked in saffron-infused milk yield an excellent matrix of calcium and high-quality casein protein.",
+      "Pistachios and almonds on top add great zinc and vitamin E to the dessert."
+    ],
+    "advice": "🥛 Milky and delicious! It stands as one of the best dairy-based sweets for fitness enthusiasts due to its steady protein delivery."
+  },
+  "kheer_payasam": {
+    "display_name": "Kheer / Payasam",
+    "water_liters": 467,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 350,
+      "blue": 80,
+      "grey": 37
+    },
+    "tips": [
+      "A timeless festival pudding that slow-cooks milk and rice together, making it incredibly soothing.",
+      "Rice starch thickens the milk naturally without requiring artificial stabilization."
+    ],
+    "advice": "🥣 Divine comfort food! For a highly fibrous and low-footprint tweak, try replacing rice with broken wheat daliya or roasted foxnuts (makhana)."
+  },
+  "shrikhand": {
+    "display_name": "Shrikhand",
+    "water_liters": 533,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 427,
+      "blue": 73,
+      "grey": 33
+    },
+    "tips": [
+      "The pride of Western India! Made from thick strained yogurt (chakka), concentrating high amounts of gut-friendly protein.",
+      "Yogurt fermentation makes it incredibly easy on the digestive tract."
+    ],
+    "advice": "🥣 Creamy and sweet! Sourdough strainers make it a fantastic high-protein dessert. Try mixing in fresh mango pulp (Amrakhand) for a natural fructose boost."
+  },
+  "rabdi": {
+    "display_name": "Rabdi",
+    "water_liters": 967,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 783,
+      "blue": 127,
+      "grey": 57
+    },
+    "tips": [
+      "Rabdi is made by reducing milk over hours until it forms dense layers of delicious malai.",
+      "As a highly concentrated dairy item, it holds a premium resource value."
+    ],
+    "advice": "🥛 Thick and nostalgic! Enjoy it as an occasional delicacy, or pair it with sliced water-efficient fruits like apples for a refreshing balance."
+  },
+  "jalebi": {
+    "display_name": "Jalebi",
+    "water_liters": 367,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 270,
+      "blue": 70,
+      "grey": 27
+    },
+    "tips": [
+      "The wild fermentation of maida batter before frying introduces unique, subtle organic acids that define its flavor.",
+      "Wheat starch forms a highly water-efficient base for this popular sweet."
+    ],
+    "advice": "🌀 Crispy golden spirals! Perfect for immediate energy. Enjoy it warm alongside a cup of unsweetened hot milk or curd to add protein."
+  },
+  "soan_papdi": {
+    "display_name": "Soan Papdi",
+    "water_liters": 400,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 303,
+      "blue": 70,
+      "grey": 27
+    },
+    "tips": [
+      "Utilizes a clever blend of besan (gram flour) and wheat flour, which means the baseline grain footprint is highly sustainable.",
+      "Ghee and sugar give it that iconic flaky, melt-in-the-mouth texture."
+    ],
+    "advice": "🍂 Flaky and light! Its besan composition naturally infuses a small touch of pulse protein into every bite."
+  },
+  "kaju_katli": {
+    "display_name": "Kaju Katli",
+    "water_liters": 800,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 583,
+      "blue": 170,
+      "grey": 47
+    },
+    "tips": [
+      "Crafted primarily from cashew nuts, which supply excellent oleic acid healthy fats and plant protein.",
+      "Cashew trees are highly sturdy and excel at carbon sequestration in coastal soils."
+    ],
+    "advice": "🔷 A premium nut-based sweet! It serves as a fantastic source of clean energy and healthy fats for active workout days."
+  },
+  "besan_laddu": {
+    "display_name": "Besan Laddu",
+    "water_liters": 433,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 327,
+      "blue": 73,
+      "grey": 33
+    },
+    "tips": [
+      "Besan roasted in aromatic ghee provides an excellent source of plant protein and dense energy.",
+      "Chana dal flour is one of the most environmentally stable and water-friendly ingredients available."
+    ],
+    "advice": "🟡 An outstanding homemade energy ball! Toss in crushed almonds and melon seeds to turn it into a high-protein fitness snack."
+  },
+  "atta_laddu_pinni": {
+    "display_name": "Atta Laddu (Pinni)",
+    "water_liters": 417,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 313,
+      "blue": 77,
+      "grey": 27
+    },
+    "tips": [
+      "A traditional winter powerhouse across North India made from whole wheat flour, ghee, and edible gum (gond).",
+      "Gond is brilliant for joint lubrication and bone strength during cold months."
+    ],
+    "advice": "🫓 Deeply strengthening! It offers brilliant slow-release energy that is ideal for a morning pre-workout treat."
+  },
+  "bundi_laddu": {
+    "display_name": "Bundi Laddu",
+    "water_liters": 383,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 283,
+      "blue": 73,
+      "grey": 27
+    },
+    "tips": [
+      "Small drops of fried besan soaked in syrup create a classic sweet tied deeply to celebrations.",
+      "The chickpea base keeps the core grain footprint remarkably efficient."
+    ],
+    "advice": "🟡 Savor it happily during festivals! It provides rapid glucose replacement after highly intensive physical activities."
+  },
+  "milk_cake_alwar": {
+    "display_name": "Milk Cake (Alwar)",
+    "water_liters": 867,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 700,
+      "blue": 117,
+      "grey": 50
+    },
+    "tips": [
+      "A dense, grainy masterpiece from Rajasthan made by reducing milk with a touch of alum or lemon juice.",
+      "It packs high concentrations of dairy calcium and essential proteins."
+    ],
+    "advice": "🟫 Rich and satisfying! A small square offers fantastic satiety and dairy protein to easily crush sweet cravings."
+  },
+  "petha_agra": {
+    "display_name": "Petha (Agra)",
+    "water_liters": 127,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 80,
+      "blue": 37,
+      "grey": 10
+    },
+    "tips": [
+      "Agra's famous sweet is carved from ash gourd (winter melon), an incredibly water-efficient vegetable.",
+      "Ash gourd is highly cooling and alkalizing for the internal digestive system."
+    ],
+    "advice": "⬜ Exceptionally low baseline water footprint for a sweet! It is completely fat-free, making it a very clean source of quick carbohydrates."
+  },
+  "milk_chai": {
+    "display_name": "Milk Chai",
+    "water_liters": 340,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 292,
+      "blue": 29,
+      "grey": 19
+    },
+    "tips": [
+      "The comforting cutting chai of daily life relies on dairy milk for its primary water footprint.",
+      "Tea leaves are highly sustainable, making the dairy element the main driver of resources."
+    ],
+    "advice": "☕ Nothing beats a hot cup of chai! If you enjoy multiple cups daily and want to optimize macros, low-fat milk gives you identical creaminess with fewer calories."
+  },
+  "black_tea": {
+    "display_name": "Black Tea",
+    "water_liters": 40,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 30,
+      "blue": 7,
+      "grey": 3
+    },
+    "tips": [
+      "Black tea is exceptionally rich in polyphenols and flavonoids that actively support cardiovascular health.",
+      "Without dairy inputs, its direct water footprint is extraordinarily light."
+    ],
+    "advice": "☕ An exceptionally clean, hydration-friendly beverage! Enjoy it with a squeeze of lemon or fresh mint for a refreshing antioxidant boost."
+  },
+  "green_tea": {
+    "display_name": "Green Tea",
+    "water_liters": 37,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 28,
+      "blue": 5,
+      "grey": 3
+    },
+    "tips": [
+      "Green tea provides EGCG, a unique antioxidant widely celebrated for boosting resting metabolic rate.",
+      "It is an incredibly efficient beverage choice with virtually zero environmental footprint."
+    ],
+    "advice": "🍵 Exceptional for overall wellness! Drink it freely throughout the day to support fat oxidation and daily hydration goals smoothly."
+  },
+  "filter_coffee_with_milk": {
+    "display_name": "Filter Coffee with Milk",
+    "water_liters": 383,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 307,
+      "blue": 50,
+      "grey": 27
+    },
+    "tips": [
+      "Coffee beans require focused, shade-grown environments, while milk adds to the satisfying liquid density.",
+      "It offers an exceptional caffeine boost to enhance morning focus and workout performance."
+    ],
+    "advice": "☕ A morning essential! Enjoy your brew. Opting for skimmed milk or a splash of almond milk matches the rich taste with excellent efficiency."
+  },
+  "black_coffee_espresso": {
+    "display_name": "Black Coffee / Espresso",
+    "water_liters": 83,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 63,
+      "blue": 13,
+      "grey": 7
+    },
+    "tips": [
+      "An unadulterated shot of pure caffeine that serves as an elite, zero-calorie pre-workout beverage.",
+      "Bypassing milk ensures a highly direct, water-friendly profile."
+    ],
+    "advice": "☕ The ultimate fitness amplifier! Drink it 30 minutes before your training sessions to skyrocket endurance and metabolic focus naturally."
+  },
+  "lassi_sweet": {
+    "display_name": "Sweet Lassi",
+    "water_liters": 467,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 383,
+      "blue": 57,
+      "grey": 27
+    },
+    "tips": [
+      "A thick, refreshing yogurt drink that delivers massive amounts of gut-healthy probiotics and calcium.",
+      "Yogurt cultures synthesize vitamins in the drink, enhancing its total nutritional value."
+    ],
+    "advice": "🥛 Wonderfully filling! To adapt it perfectly for a fitness lifestyle, blending it with a scoop of protein powder creates an elite meal-replacement shake."
+  },
+  "chaas_buttermilk": {
+    "display_name": "Chaas (Buttermilk)",
+    "water_liters": 237,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 197,
+      "blue": 27,
+      "grey": 13
+    },
+    "tips": [
+      "Chaas is beautifully diluted with pure water and cooling spices, cutting down the dairy concentration significantly.",
+      "Roasted cumin (jeera) and mint added to chaas provide immediate relief to the digestive system."
+    ],
+    "advice": "🥛 The absolute king of summer hydration! Drink it freely after meals to naturally promote gut digestion and cool down your core."
+  },
+  "nimbu_pani_shikanji": {
+    "display_name": "Nimbu Pani (Shikanji)",
+    "water_liters": 60,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 43,
+      "blue": 13,
+      "grey": 3
+    },
+    "tips": [
+      "Fresh lemon juice provides immediate Vitamin C and alkaline support to balance internal pH levels.",
+      "Lemons are highly efficient growers, resulting in an exceptionally green footprint."
+    ],
+    "advice": "🍋 Nature's ORS! Use rock salt (kala namak) and a touch of honey or stevia to create a completely sugar-free, electrolyte-rich recovery drink."
+  },
+  "coconut_water_nariyal_pani": {
+    "display_name": "Coconut Water (Nariyal Pani)",
+    "water_liters": 150,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 127,
+      "blue": 17,
+      "grey": 7
+    },
+    "tips": [
+      "Nariyal pani is directly packed with bioactive enzymes and natural potassium to regulate blood pressure.",
+      "Coconut palms rely purely on coastal groundwater and seasonal rainfall, requiring zero artificial inputs."
+    ],
+    "advice": "🌴 Elite natural hydration! It is the perfect, untouched electrolyte drink to restore muscle hydration post-workout."
+  },
+  "badam_milk": {
+    "display_name": "Badam Milk",
+    "water_liters": 617,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 473,
+      "blue": 103,
+      "grey": 40
+    },
+    "tips": [
+      "Combines dairy milk with a dense paste of nutrient-rich almonds, yielding high Vitamin E and zinc.",
+      "Almond trees are deeply efficient stores of beneficial fats."
+    ],
+    "advice": "🥛 Exceptionally strengthening and rich! For a highly water-efficient spin, try cold-pressed oat milk steeped with saffron and cardamom."
+  },
+  "thandai": {
+    "display_name": "Thandai",
+    "water_liters": 650,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 497,
+      "blue": 113,
+      "grey": 40
+    },
+    "tips": [
+      "A festive drink loaded with poppy seeds, melon seeds, almonds, and rose petals to cool the nervous system.",
+      "Melon and pumpkin seeds are highly sustainable, water-friendly sources of healthy fats."
+    ],
+    "advice": "🥛 Deeply cooling and therapeutic! Enjoy this traditional treat during festivals to naturally soothe internal heat."
+  },
+  "jal_jeera": {
+    "display_name": "Jal Jeera",
+    "water_liters": 53,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 37,
+      "blue": 13,
+      "grey": 3
+    },
+    "tips": [
+      "An intense herbal water containing cumin, black pepper, amchur, and fresh mint leaves.",
+      "Spices are highly concentrated, making their direct water requirement incredibly minimal."
+    ],
+    "advice": "🌿 A fantastic appetizer! Sip a cold glass before heavy meals to fire up your digestive enzymes cleanly."
+  },
+  "sattu_sharbat": {
+    "display_name": "Sattu Sharbat",
+    "water_liters": 283,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 227,
+      "blue": 40,
+      "grey": 17
+    },
+    "tips": [
+      "The legendary 'poor man's protein shake' from Central India made from roasted chana flour.",
+      "Sattu offers exceptional vegetarian protein and cools down the body instantly."
+    ],
+    "advice": "💪 A phenomenal plant-protein champion! Mix 3 tablespoons of sattu in cold water with lemon and black salt for a pristine, budget-friendly protein fix."
+  },
+  "aam_panna": {
+    "display_name": "Aam Panna",
+    "water_liters": 217,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 163,
+      "blue": 40,
+      "grey": 13
+    },
+    "tips": [
+      "Crafted from boiled raw green mangoes, offering an exceptional defense against seasonal heatstrokes (loo).",
+      "Raw mangoes are harvested early, conserving tree water resources beautifully."
+    ],
+    "advice": "🥭 The ultimate summer shield! Use roasted cumin and mint to sweeten it naturally for a refreshing midday drink."
+  },
+  "kokum_sharbat": {
+    "display_name": "Kokum Sharbat",
+    "water_liters": 117,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 80,
+      "blue": 30,
+      "grey": 7
+    },
+    "tips": [
+      "The pride of Western coastal India! Kokum contains garcinol, a powerful anti-inflammatory agent.",
+      "Kokum trees grow wild along the Western Ghats, utilizing pure monsoon rain."
+    ],
+    "advice": "🍷 Deeply refreshing and tart! It serves as an elite, low-calorie alternative to processed sodas to aid smooth digestion."
+  },
+  "sol_kadhi": {
+    "display_name": "Sol Kadhi",
+    "water_liters": 283,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 217,
+      "blue": 50,
+      "grey": 17
+    },
+    "tips": [
+      "A pink coastal drink combining kokum extract with fresh coconut milk, known for calming down hot spices.",
+      "Coconut milk offers healthy medium-chain triglycerides (MCTs) for instant cellular energy."
+    ],
+    "advice": "🥥 Beautifully soothing post-meal digestive! It supports your gut health perfectly after enjoying a fiery curry."
+  },
+  "sugar_cane_juice": {
+    "display_name": "Sugarcane Juice",
+    "water_liters": 160,
+    "unit": "per serving (~300ml)",
+    "breakdown": {
+      "green": 117,
+      "blue": 33,
+      "grey": 10
+    },
+    "tips": [
+      "Fresh sugarcane juice is an incredible natural glycogen replenisher, making it ideal for immediate recovery.",
+      "It is a completely raw, unrefined drink loaded with organic iron and minerals."
+    ],
+    "advice": "🥤 A glorious natural energy source! Enjoy a cold glass with a dash of ginger and lemon to combat afternoon fatigue instantly."
+  },
+  "paneer_makhani_with_roti": {
+    "display_name": "Paneer Makhani with Roti",
+    "water_liters": 617,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 470,
+      "blue": 103,
+      "grey": 43
+    },
+    "tips": [
+      "A rich, comforting dish where soft paneer cubes swim in a luxurious tomato-onion gravy layered with mild spices.",
+      "Paneer delivers excellent slow-digesting protein to keep your muscles protected over long intervals."
+    ],
+    "advice": "🧀 Wonderful protein meal! To keep it lean for daily consumption, you can substitute heavy cream with well-beaten, low-fat home curd."
+  },
+  "dal_makhani_with_roti": {
+    "display_name": "Dal Makhani with Roti",
+    "water_liters": 483,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 373,
+      "blue": 80,
+      "grey": 30
+    },
+    "tips": [
+      "Whole black lentils (urad) and rajma slow-cooked to perfection create an outstanding fiber-and-protein matrix.",
+      "Lentils are champion water-savers, keeping this rich dish highly sustainable at its core."
+    ],
+    "advice": "🥣 Deeply satisfying pulse protein! Enjoy it fully. Pre-soaking your lentils thoroughly ensures they cook rapidly and remain light on your stomach."
+  },
+  "chana_masala_with_roti": {
+    "display_name": "Chana Masala with Roti",
+    "water_liters": 450,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 350,
+      "blue": 73,
+      "grey": 27
+    },
+    "tips": [
+      "Spiced chickpeas (chana) paired with whole wheat roti yield an incredibly high-fiber, low-fat fitness meal.",
+      "Chana uses water with extreme efficiency, making this combination an eco-friendly marvel."
+    ],
+    "advice": "✅ Top-tier choice for clean gains! Keep this dish in your regular lunch rotation to unlock sustained energy and muscle support."
+  },
+  "aloo_matar_with_roti": {
+    "display_name": "Aloo Matar with Roti",
+    "water_liters": 260,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 193,
+      "blue": 47,
+      "grey": 20
+    },
+    "tips": [
+      "A comforting winter staple across Northern households. Peas add great plant protein, while potatoes supply clean carbs.",
+      "Both crops love cool weather and utilize natural ground moisture exceptionally well."
+    ],
+    "advice": "🫛 Light and grounding! Throw in a generous handful of fresh coriander leaves at the end to add an extra splash of Vitamin C."
+  },
+  "jeera_aloo_with_roti": {
+    "display_name": "Jeera Aloo with Roti",
+    "water_liters": 230,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 163,
+      "blue": 47,
+      "grey": 20
+    },
+    "tips": [
+      "A quick, satisfying meal where parboiled potatoes are tossed with aromatic, digestive cumin seeds (jeera).",
+      "Potatoes stand as one of the most calorie-efficient foods per liter of water used."
+    ],
+    "advice": "🥔 Quick and dependable clean energy! Pair it with a bowl of simple lentil soup or curd to round out your protein macros perfectly."
+  },
+  "bhindi_do_pyaza_with_roti": {
+    "display_name": "Bhindi Do Pyaza with Roti",
+    "water_liters": 270,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 197,
+      "blue": 53,
+      "grey": 20
+    },
+    "tips": [
+      "Okra cooked with double the onions adds incredible volume, natural sweetness, and prebiotic fiber.",
+      "Both bhindi and pyaz are exceptionally climate-resilient and grow beautifully with minimal water."
+    ],
+    "advice": "🌵 A delicious, high-volume veggie meal! Keep the cooking oil moderate to preserve the clean, fat-free nature of the vegetables."
+  },
+  "lauki_ki_sabzi_with_roti": {
+    "display_name": "Lauki Sabzi with Roti",
+    "water_liters": 207,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 147,
+      "blue": 43,
+      "grey": 17
+    },
+    "tips": [
+      "Bottle gourd (lauki) is highly hydrating, exceptionally easy to digest, and very low in baseline calories.",
+      "Gourds are masters of water absorption, boasting a remarkably low environmental footprint."
+    ],
+    "advice": "🥒 Perfect for a light, refreshing dinner! Cooking it with tomatoes and a touch of cumin keeps it deeply nourishing and gentle on your gut."
+  },
+  "torai_ki_sabzi_with_roti": {
+    "display_name": "Torai Sabzi with Roti",
+    "water_liters": 213,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 153,
+      "blue": 43,
+      "grey": 17
+    },
+    "tips": [
+      "Sponge gourd (torai) provides excellent dietary fiber and essential minerals to support optimal metabolic function.",
+      "It thrives naturally during monsoon months, requiring zero artificial groundwater stress."
+    ],
+    "advice": "🌿 Light and healthy! Enjoy this clean gourd dish hot with your rotis to encourage smooth nighttime digestion."
+  },
+  "kadai_paneer_with_roti": {
+    "display_name": "Kadai Paneer with Roti",
+    "water_liters": 573,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 430,
+      "blue": 103,
+      "grey": 40
+    },
+    "tips": [
+      "Fresh bell peppers and onions stir-fried with paneer deliver a high-protein, antioxidant-rich vegetarian feast.",
+      "Bell peppers utilize minimal water, balancing out the dairy footprint seamlessly."
+    ],
+    "advice": "🫑 Elite muscle-building meal! The crisp peppers provide fantastic crunch and Vitamin C to enhance the absorption of nutrients."
+  },
+  "methi_matar_malai_with_roti": {
+    "display_name": "Methi Matar Malai with Roti",
+    "water_liters": 517,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 393,
+      "blue": 90,
+      "grey": 33
+    },
+    "tips": [
+      "Combines bitter fenugreek leaves (methi) and sweet peas in a rich gravy, optimizing iron and green nutrients beautifully.",
+      "Methi is legendary for its ability to steady blood sugar and insulin levels."
+    ],
+    "advice": "🌿 Intensely flavorful! To enjoy it with a lighter macro profile on weekdays, substitute milk or thick yogurt for the heavy cooking cream."
+  },
+  "malai_kofta_with_roti": {
+    "display_name": "Malai Kofta with Roti",
+    "water_liters": 650,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 493,
+      "blue": 113,
+      "grey": 43
+    },
+    "tips": [
+      "Paneer and potato dumplings fried and dipped in a creamy gravy create a rich, celebrated festive dish.",
+      "This combination focuses dense energy and high calcium into a deeply satisfying texture."
+    ],
+    "advice": "🧆 A wonderful celebratory treat! You can easily air-fry the paneer-potato koftas to achieve that identical outer crunch cleanly."
+  },
+  "dum_aloo_with_roti": {
+    "display_name": "Dum Aloo with Roti",
+    "water_liters": 263,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 193,
+      "blue": 50,
+      "grey": 20
+    },
+    "tips": [
+      "Baby potatoes simmered slowly in a rich, spiced curd gravy offer rich potassium and clean complex carbs.",
+      "Using a curd base instead of cream infuses healthy protein into the gravy smoothly."
+    ],
+    "advice": "🥔 Deeply comforting and hearty! Prick the baby potatoes before simmering so they soak up all the digestive spices thoroughly."
+  },
+  "mix_veg_sabzi_with_roti": {
+    "display_name": "Mix Veg Sabzi with Roti",
+    "water_liters": 273,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 203,
+      "blue": 50,
+      "grey": 20
+    },
+    "tips": [
+      "A colorful medley of carrots, beans, cauliflower, and peas that delivers a massive spectrum of essential vitamins.",
+      "Mixed local vegetables possess a highly optimized, efficient cumulative water footprint."
+    ],
+    "advice": "🥕 The ultimate rainbow meal! Toss in small cubes of paneer or tofu to turn this vitamin-packed dish into a complete fitness plate."
+  },
+  "sev_bhaji_with_roti": {
+    "display_name": "Sev Bhaji with Roti",
+    "water_liters": 383,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 297,
+      "blue": 60,
+      "grey": 27
+    },
+    "tips": [
+      "A beloved classic of Central and Western India featuring crispy gram flour sev simmered in a spicy tomato gravy.",
+      "Besan-based sev inherently supplies a helpful touch of pulse protein and iron."
+    ],
+    "advice": "🌶️ Bold and deeply satisfying! Pair this spicy curry with a refreshing side of sliced cucumber or cold buttermilk."
+  },
+  "shevga_curry_drumstick_with_roti": {
+    "display_name": "Drumstick Curry (Shevga) with Roti",
+    "water_liters": 227,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 163,
+      "blue": 47,
+      "grey": 17
+    },
+    "tips": [
+      "Drumsticks (shevga) are legendary superfoods packed with dense antioxidants, joint-loving compounds, and Vitamin C.",
+      "Moringa trees are incredibly drought-resistant, requiring almost zero managed irrigation."
+    ],
+    "advice": "🌿 An absolute health gem! Chewing the pulp of drumsticks from the curry provides fantastic anti-inflammatory benefits to your body."
+  },
+  "pithla_bhakri": {
+    "display_name": "Pithla Bhakri",
+    "water_liters": 367,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 280,
+      "blue": 60,
+      "grey": 27
+    },
+    "tips": [
+      "The ultimate rustic meal of Western India combines a smooth besan porridge (pithla) with a robust sorghum flatbread (jowar bhakri).",
+      "Jowar is a glorious millet that is highly drought-resilient and loaded with iron and zinc."
+    ],
+    "advice": "🌾 Phenomenal gluten-free energy! This combo is exceptionally rich in fiber and plant protein. Enjoy it with a fiery green chili thecha."
+  },
+  "baingan_masala_with_roti": {
+    "display_name": "Baingan Masala with Roti",
+    "water_liters": 237,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 173,
+      "blue": 47,
+      "grey": 17
+    },
+    "tips": [
+      "Eggplant stuffed with roasted spices and a touch of peanut paste gives excellent healthy fats and high fiber.",
+      "Baingan is exceptionally sustainable, making great use of minimal groundwater."
+    ],
+    "advice": "🍆 Rich and aromatic! The small addition of roasted peanut powder introduces vital micronutrients and healthy fats seamlessly."
+  },
+  "mushroom_masala_with_roti": {
+    "display_name": "Mushroom Masala with Roti",
+    "water_liters": 297,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 213,
+      "blue": 60,
+      "grey": 23
+    },
+    "tips": [
+      "Mushrooms offer a unique savory umami flavor along with essential Vitamin D and selenium for thyroid support.",
+      "They are cultivated vertically indoors, making highly efficient use of physical space and water."
+    ],
+    "advice": "🍄 Brilliant low-calorie volume! Cook them with plenty of onions and tomatoes to secure a juicy, fiber-rich lunch."
+  },
+  "gatte_ki_sabzi_with_roti": {
+    "display_name": "Gatte Ki Sabzi with Roti",
+    "water_liters": 417,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 317,
+      "blue": 70,
+      "grey": 30
+    },
+    "tips": [
+      "Gram flour dumplings cooked cleanly in a spicy, comforting curd gravy create a highly satisfying vegetarian dish.",
+      "Besan and curd together optimize the vegetarian protein profile beautifully."
+    ],
+    "advice": "🟡 Wonderful desert classic! It provides solid plant protein. Keep the gattas lightly steamed rather than fried to preserve their clean macros."
+  },
+  "ker_sangri_with_roti": {
+    "display_name": "Ker Sangri with Roti",
+    "water_liters": 183,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 127,
+      "blue": 40,
+      "grey": 17
+    },
+    "tips": [
+      "A legendary desert delicacy made from wild berries and beans that grow exclusively on deep-rooted desert trees.",
+      "These ingredients are natural survival wonders, holding an incredibly small water footprint."
+    ],
+    "advice": "🌵 A spectacular, highly sustainable traditional dish! It is packed with unique minerals and deep, rustic fiber."
+  },
+  "veg_pulao_with_raita": {
+    "display_name": "Veg Pulao with Raita",
+    "water_liters": 583,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 403,
+      "blue": 127,
+      "grey": 53
+    },
+    "tips": [
+      "Aromatic rice cooked with a variety of green vegetables and served alongside a cool, probiotic curd raita.",
+      "The raita effectively introduces high-quality protein and slows down the absorption of carbohydrates."
+    ],
+    "advice": "🍚 Beautifully balanced light lunch! Throwing in roasted peanuts, paneer cubes, or soy chunks turns this aromatic dish into a high-protein powerhouse."
+  },
+  "jeera_rice_with_dal_fry": {
+    "display_name": "Jeera Rice with Dal Fry",
+    "water_liters": 607,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 407,
+      "blue": 147,
+      "grey": 53
+    },
+    "tips": [
+      "Basmati rice tossed with digestive cumin seeds pairs perfectly with a satisfying yellow lentil tadka.",
+      "Lentils use water with outstanding efficiency, balancing the rice footprint gracefully."
+    ],
+    "advice": "🍛 Timeless restaurant and home classic! Enjoy it fully. Asking for a double portion of dal fry maximizes your clean protein intake effortlessly."
+  },
+  "masale_bhat_with_mattha": {
+    "display_name": "Masale Bhat with Mattha",
+    "water_liters": 550,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 383,
+      "blue": 120,
+      "grey": 47
+    },
+    "tips": [
+      "A festive Marathi spiced rice loaded with ivy gourd (tindora) and peanuts, paired with spiced buttermilk (mattha).",
+      "Mattha aids digestion perfectly while offering a highly efficient, lightweight hydration source."
+    ],
+    "advice": "🍛 Rich in flavor and heritage! The crunch of peanuts gives excellent healthy fats to support sustained energy throughout the afternoon."
+  },
+  "veg_biryani_with_raita": {
+    "display_name": "Veg Biryani with Raita",
+    "water_liters": 617,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 427,
+      "blue": 137,
+      "grey": 53
+    },
+    "tips": [
+      "Layers of basmati rice, mint, saffron, and heavily spiced vegetables create an incredibly aromatic dish.",
+      "Vegetable-based biryanis maintain an exceptionally clean and green water footprint."
+    ],
+    "advice": "🍛 A celebration of spice! To elevate the muscle-building macros instantly, ensure a generous inclusion of paneer or protein-dense soy chunks."
+  },
+  "chicken_pulao_with_raita": {
+    "display_name": "Chicken Pulao with Raita",
+    "water_liters": 817,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 630,
+      "blue": 137,
+      "grey": 50
+    },
+    "tips": [
+      "A single-pot meal combining lean chicken and rice, providing a pristine balance of clean carbs and high protein.",
+      "Chicken represents a highly resource-efficient animal protein option for fitness enthusiasts."
+    ],
+    "advice": "🍗 Elite clean meal! It is incredibly easy on digestion and highly effective for muscle recovery. Enjoy it alongside a generous helping of cucumber raita."
+  },
+  "egg_pulao_with_raita": {
+    "display_name": "Egg Pulao with Raita",
+    "water_liters": 700,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 517,
+      "blue": 130,
+      "grey": 53
+    },
+    "tips": [
+      "Boiled eggs chopped into aromatic spiced rice create a quick, highly bioavailable protein dinner.",
+      "Eggs are incredibly resource-friendly, making this an outstanding sustainable fitness choice."
+    ],
+    "advice": "🥚 Fast and highly nutritious! Feel free to scramble in an extra egg white to maximize pure protein while keeping fats perfectly balanced."
+  },
+  "methi_rice_with_curd": {
+    "display_name": "Methi Rice with Curd",
+    "water_liters": 483,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 350,
+      "blue": 93,
+      "grey": 40
+    },
+    "tips": [
+      "Aromatic rice cooked with iron-rich fenugreek leaves (methi) and served with cool, refreshing curd.",
+      "Methi greens are phenomenal for managing blood glucose spikes naturally."
+    ],
+    "advice": "🌿 Exceptionally healthy and light! Mix in some roasted peanuts or white chickpeas to add a delightful crunch and extra protein."
+  },
+  "palak_rice_with_curd": {
+    "display_name": "Palak Rice with Curd",
+    "water_liters": 473,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 340,
+      "blue": 93,
+      "grey": 40
+    },
+    "tips": [
+      "Vibrant green rice infused with iron-dense spinach puree and paired with cooling probiotic curd.",
+      "Spinach grows rapidly with minimal water, making this a highly eco-friendly lunch."
+    ],
+    "advice": "🥬 Beautifully colorful and nourishing! Throw in some pan-seared paneer cubes to create a delicious, high-protein palak paneer rice bowl."
+  },
+  "lemon_rice_with_chaas": {
+    "display_name": "Lemon Rice with Chaas",
+    "water_liters": 450,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 317,
+      "blue": 93,
+      "grey": 40
+    },
+    "tips": [
+      "Tangy rice tempered with mustard seeds, curry leaves, and crunchy peanuts, paired with cooling buttermilk.",
+      "Fresh lemon juice offers immediate Vitamin C to maximize the iron absorbed from peanuts."
+    ],
+    "advice": "🍋 Incredibly refreshing and light! It serves as an exceptional midday clean energy meal to prevent afternoon sluggishness."
+  },
+  "curd_rice_with_pickle": {
+    "display_name": "Curd Rice with Pickle",
+    "water_liters": 467,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 340,
+      "blue": 87,
+      "grey": 40
+    },
+    "tips": [
+      "The ultimate cooling comfort food! Soft rice mixed with fresh curd relaxes the stomach lining instantly.",
+      "It offers an exceptional dose of live probiotics to support optimal gut health."
+    ],
+    "advice": "🥣 Deeply healing and soothing! Temper it with a dash of mustard seeds and curry leaves in a teaspoon of ghee to unlock fat-soluble vitamins."
+  },
+  "tomato_rice_with_raita": {
+    "display_name": "Tomato Rice with Raita",
+    "water_liters": 437,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 307,
+      "blue": 90,
+      "grey": 40
+    },
+    "tips": [
+      "Spicy, tangy rice cooked with fresh tomatoes and local spices, paired with cooling yogurt.",
+      "Tomatoes are champion water-savers, keeping the baseline footprint of this meal beautifully low."
+    ],
+    "advice": "🍅 Vibrant and appetizing! Toss in some boiled white chana or fresh green peas to instantly upgrade the plant protein profile."
+  },
+  "fried_rice_with_manchurian": {
+    "display_name": "Fried Rice with Manchurian",
+    "water_liters": 650,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 450,
+      "blue": 147,
+      "grey": 53
+    },
+    "tips": [
+      "A beloved Indo-Chinese combo featuring wok-tossed vegetable rice paired with savory vegetable dumplings in a glossy sauce.",
+      "Cabbage and carrots form the backbone of the Manchurian, ensuring high water efficiency."
+    ],
+    "advice": "🥠 Deeply savory comfort food! To easily boost the protein macros to athlete levels, opt for a delicious Paneer or Tofu Manchurian next time."
+  },
+  "schezwan_rice_with_paneer_chilli": {
+    "display_name": "Schezwan Rice with Paneer Chilli",
+    "water_liters": 700,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 503,
+      "blue": 147,
+      "grey": 50
+    },
+    "tips": [
+      "Spicy Schezwan fried rice served alongside protein-rich stir-fried paneer cubes, bell peppers, and onions.",
+      "Paneer delivers exceptional calcium and steady amino acids to balance the fiery chili spice safely."
+    ],
+    "advice": "🔥 A magnificent, high-protein cheat meal! Keep the pan stir-fried cleanly with lots of fresh capsicum to maximize vitamin delivery."
+  },
+  "sambhar_rice": {
+    "display_name": "Sambhar Rice",
+    "water_liters": 550,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 383,
+      "blue": 120,
+      "grey": 47
+    },
+    "tips": [
+      "Rice completely simmered with lentil-based sambar, loading every bite with fiber, vitamins, and plant protein.",
+      "The high volume of water-efficient lentils naturally optimizes the ecological footprint of the rice."
+    ],
+    "advice": "🥣 Hearty and deeply satisfying! Enjoy it hot with a small dollop of pure ghee to encourage easy nutrient absorption."
+  },
+  "dal_makhani_with_jeera_rice": {
+    "display_name": "Dal Makhani with Jeera Rice",
+    "water_liters": 660,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 460,
+      "blue": 147,
+      "grey": 53
+    },
+    "tips": [
+      "Rich black lentils slow-cooked with cream and butter, served over a bed of aromatic cumin-flavored basmati rice.",
+      "Urad dal supplies rich iron and dense dietary fiber to stabilize blood sugar release naturally."
+    ],
+    "advice": "🍛 An absolute classic feast! To enjoy that rich, velvety experience frequently on weekdays, use low-fat milk to simmer your dal beautifully."
+  },
+  "chole_with_jeera_rice": {
+    "display_name": "Chole with Jeera Rice",
+    "water_liters": 630,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 440,
+      "blue": 137,
+      "grey": 53
+    },
+    "tips": [
+      "Spiced white chickpeas served over fluffy jeera rice supply a massive dose of complex carbs and plant protein.",
+      "Chickpeas are robust nitrogen-fixers, meaning they require very little external agricultural assistance."
+    ],
+    "advice": "✅ Superb choice for energy and muscle building! Keep your portions balanced with a side of fresh radish or carrot salad."
+  },
+  "mutton_curry_with_rice": {
+    "display_name": "Mutton Curry with Rice",
+    "water_liters": 1600,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 1267,
+      "blue": 240,
+      "grey": 93
+    },
+    "tips": [
+      "Mutton supplies exceptional bioavailable iron, zinc, and Vitamin B12, crucial for red blood cell production.",
+      "Goat livestock farming is resource-intensive, which is reflected in the premium water footprint."
+    ],
+    "advice": "🍖 A rich, traditional delicacy! To optimize your weekly meals, enjoy mutton on special occasions while leaning on chicken or fish for daily lean macros."
+  },
+  "chicken_masala_with_jeera_rice": {
+    "display_name": "Chicken Masala with Jeera Rice",
+    "water_liters": 867,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 683,
+      "blue": 137,
+      "grey": 47
+    },
+    "tips": [
+      "Lean chicken breast or thigh simmered in a spiced tomato gravy, served over clean, easily digestible jeera rice.",
+      "Chicken is highly eco-efficient, boasting a fantastic protein-to-water ratio."
+    ],
+    "advice": "🍗 Elite fitness meal for pure strength! It provides a perfect balance of fast-absorbing muscle fuel post-training."
+  },
+  "saag_chicken_with_rice": {
+    "display_name": "Saag Chicken with Rice",
+    "water_liters": 733,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 573,
+      "blue": 113,
+      "grey": 47
+    },
+    "tips": [
+      "A magnificent pairing where high-protein lean chicken is cooked down inside an iron-dense spinach (saag) puree.",
+      "Spinach adds zero caloric overhead while dramatically elevating the mineral profile of the meat."
+    ],
+    "advice": "🥬 Exceptional, clean nutrition! It keeps you full for hours. Enjoy it hot with a side of squeezed fresh lemon to maximize iron absorption."
+  },
+  "prawn_curry_with_rice": {
+    "display_name": "Prawn Curry with Rice",
+    "water_liters": 783,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 483,
+      "blue": 207,
+      "grey": 93
+    },
+    "tips": [
+      "Prawns provide an incredibly pure source of lean protein along with rare trace minerals like selenium and iodine.",
+      "Marine sourcing avoids traditional land-irrigation networks entirely."
+    ],
+    "advice": "🍤 Elite seafood choice! It is exceptionally low in fat and packed with pure muscle-building protein. Keep the curry base tomato-focused."
+  },
+  "egg_bhurji_with_roti": {
+    "display_name": "Egg Bhurji with Roti",
+    "water_liters": 417,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 317,
+      "blue": 73,
+      "grey": 27
+    },
+    "tips": [
+      "Scrambled eggs tossed with onions, tomatoes, and green chilies, served hot alongside whole-wheat rotis.",
+      "This delivers an outstanding balance of immediate energy and highly bioavailable muscle-building protein."
+    ],
+    "advice": "🍳 Perfect, fast-cooking fitness fuel! Feel free to cook it with 1 whole egg and 2 egg whites to keep the protein macros sky-high."
+  },
+  "paneer_bhurji_with_roti": {
+    "display_name": "Paneer Bhurji with Roti",
+    "water_liters": 550,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 413,
+      "blue": 97,
+      "grey": 40
+    },
+    "tips": [
+      "Fresh crumbled paneer cooked with local spices and veggies provides a fast, calcium-rich vegetarian dinner.",
+      "Paneer supplies steady-release casein protein to prevent muscle breakdown overnight."
+    ],
+    "advice": "🧀 Outstanding vegetarian protein choice! Mix in fresh green peas or chopped capsicum to boost the fiber profile cleanly."
+  },
+  "tofu_bhurji_with_roti": {
+    "display_name": "Tofu Bhurji with Roti",
+    "water_liters": 383,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 297,
+      "blue": 60,
+      "grey": 27
+    },
+    "tips": [
+      "Crumbled soy tofu scrambled with vegetables offers a completely plant-based, low-fat, iron-dense alternative to dairy.",
+      "Soybeans are incredibly resource-efficient, making this an environmental superstar."
+    ],
+    "advice": "🌱 Absolute macro masterpiece! High protein, low fat, and very eco-friendly. It is the perfect clean dinner choice for lean gains."
+  },
+  "soy_chunks_sabzi_with_roti": {
+    "display_name": "Soy Chunks Sabzi with Roti",
+    "water_liters": 400,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 307,
+      "blue": 67,
+      "grey": 27
+    },
+    "tips": [
+      "Soy chunks cooked in a comforting curry gravy pack a whopping 52% protein content per 100g of chunks.",
+      "They absorb curry juices beautifully, mimicking a rich, hearty texture cleanly."
+    ],
+    "advice": "💪 The ultimate budget vegetarian protein! Toss in some green peas or potatoes to round out a spectacular post-workout lunch."
+  },
+  "masoor_dal_with_roti": {
+    "display_name": "Masoor Dal with Roti",
+    "water_liters": 317,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 240,
+      "blue": 53,
+      "grey": 23
+    },
+    "tips": [
+      "Whole or split red lentils (masoor) provide an incredible source of iron, potassium, and plant protein.",
+      "Masoor is a exceptionally water-efficient rabi crop that loves natural cool soil moisture."
+    ],
+    "advice": "🥣 Outstanding daily staple! A thick bowl of masoor dal with rotis supplies highly regular, dependable fiber for smooth digestion."
+  },
+  "moong_dal_with_roti": {
+    "display_name": "Moong Dal with Roti",
+    "water_liters": 307,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 230,
+      "blue": 53,
+      "grey": 23
+    },
+    "tips": [
+      "Yellow or green moong dal is globally celebrated for being the easiest, most gentle lens to digest on the planet.",
+      "It requires tiny amounts of agricultural water, making it a sustainable marvel."
+    ],
+    "advice": "🥣 Pure healing nutrition! Keep it as a daily foundational lunch or dinner to maintain a peaceful, happy digestive tract."
+  },
+  "arhar_toor_dal_with_roti": {
+    "display_name": "Arhar (Toor) Dal with Roti",
+    "water_liters": 327,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 247,
+      "blue": 57,
+      "grey": 23
+    },
+    "tips": [
+      "Toor dal is the heartbeat of daily lunches across Central and Western India, offering great plant protein.",
+      "The crop is highly robust and thrives naturally with basic seasonal monsoons."
+    ],
+    "advice": "🥣 Exceptional daily fuel! Temper your dal with cumin, garlic, and a pinch of asafoetida (hing) to maximize its digestive ease."
+  },
+  "urad_dal_with_roti": {
+    "display_name": "Urad Dal with Roti",
+    "water_liters": 367,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 273,
+      "blue": 67,
+      "grey": 27
+    },
+    "tips": [
+      "Split black gram (urad) supplies deep, rich iron, magnesium, and essential B-vitamins.",
+      "Urad is highly climate-resilient, helping nourish agricultural soils naturally."
+    ],
+    "advice": "🥣 Deeply strengthening and rich! Enjoy it cooked with tomatoes and ginger to unlock smooth, comfortable absorption."
+  },
+  "chana_dal_with_roti": {
+    "display_name": "Chana Dal with Roti",
+    "water_liters": 350,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 263,
+      "blue": 63,
+      "grey": 23
+    },
+    "tips": [
+      "Split chickpeas provide a low-glycemic index source of carbohydrates that digests slowly and steadily.",
+      "Chana dal uses water with incredible efficiency, making it highly eco-friendly."
+    ],
+    "advice": "✅ Outstanding for blood sugar stability! It keeps you full and energized for hours between major workout sessions."
+  },
+  "lobia_black_eyed_peas_with_roti": {
+    "display_name": "Lobia (Black-Eyed Peas) with Roti",
+    "water_liters": 383,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 287,
+      "blue": 70,
+      "grey": 27
+    },
+    "tips": [
+      "Lobia packs unique soluble fibers and high amounts of folate to support cell health and recovery.",
+      "It is a highly drought-resilient bean that loves warm regional weather."
+    ],
+    "advice": "🫘 Wonderful plant protein choice! Cook it into a rich tomato curry to create a highly nourishing, athletic lunch."
+  },
+  "moth_dal_matki_with_roti": {
+    "display_name": "Moth Dal (Matki) with Roti",
+    "water_liters": 297,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 217,
+      "blue": 60,
+      "grey": 20
+    },
+    "tips": [
+      "Matki is a legendary desert pulse from Western India, packed with calcium, zinc, and iron.",
+      "It is one of the absolute most drought-resistant crops known, requiring minimal water."
+    ],
+    "advice": "🫘 Deeply sustainable superfood! Sprouting the matki before cooking it into a dry sabzi multiplies its vitamins effortlessly."
+  },
+  "methi_aloo_with_roti": {
+    "display_name": "Methi Aloo with Roti",
+    "water_liters": 240,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 177,
+      "blue": 43,
+      "grey": 20
+    },
+    "tips": [
+      "Bitter fenugreek leaves paired with comforting potatoes create an elite iron-and-glycogen loading winter lunch.",
+      "Methi greens grow instantly, keeping their agricultural footprint exceptionally light."
+    ],
+    "advice": "🌿 A fantastic winter staple! It aids insulin sensitivity beautifully. Keep the potato skin on to lock in 100% of the fiber."
+  },
+  "palak_aloo_with_roti": {
+    "display_name": "Palak Aloo with Roti",
+    "water_liters": 237,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 170,
+      "blue": 47,
+      "grey": 20
+    },
+    "tips": [
+      "Fresh spinach leaves cooked down with baby potatoes offer a soft, easily digestible source of iron and potassium.",
+      "Spinach is a highly efficient grower, making this meal beautifully eco-friendly."
+    ],
+    "advice": "🥬 Gentle and deeply nourishing! Enjoy it alongside a bowl of fresh curd to combine your greens with a solid protein hit."
+  },
+  "sarson_ka_saag_with_makki_di_roti": {
+    "display_name": "Sarson Ka Saag with Makki Di Roti",
+    "water_liters": 483,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 383,
+      "blue": 73,
+      "grey": 27
+    },
+    "tips": [
+      "The legendary winter duo! Mustard greens (sarson) provide deep iron, while corn rotis (makki) offer clean complex carbs.",
+      "Both are signature winter crops that utilize seasonal soil moisture with extreme efficiency."
+    ],
+    "advice": "🌽 A true seasonal masterpiece! A dollop of fresh white butter (makhan) optimizes the absorption of fat-soluble vitamins brilliantly."
+  },
+  "baingan_aloo_with_roti": {
+    "display_name": "Baingan Aloo with Roti",
+    "water_liters": 227,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 160,
+      "blue": 47,
+      "grey": 20
+    },
+    "tips": [
+      "Eggplant and potato cubes cooked with turmeric and coriander make a simple, highly water-efficient daily lunch.",
+      "Baingan is incredibly low in calories, helping bulk up the meal with healthy fiber."
+    ],
+    "advice": "🍆 Light and budget-friendly! Toss in some diced tomatoes to add a juicy texture and vital skin-loving lycopene."
+  },
+  "capsicum_aloo_with_roti": {
+    "display_name": "Capsicum Aloo with Roti",
+    "water_liters": 230,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 163,
+      "blue": 47,
+      "grey": 20
+    },
+    "tips": [
+      "Stir-fried bell peppers and potatoes supply fantastic amounts of metabolism-boosting capsaicin and Vitamin C.",
+      "Capsicum requires very light managed watering, keeping this combination highly sustainable."
+    ],
+    "advice": "🫑 Crisp and energizing! Cook it on high heat for a short duration to preserve that beautiful, crunchy vitamin-rich texture."
+  },
+  "gavaar_ki_sabzi_with_roti": {
+    "display_name": "Gavaar Sabzi with Roti",
+    "water_liters": 217,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 153,
+      "blue": 47,
+      "grey": 17
+    },
+    "tips": [
+      "Cluster beans (gavaar) are the direct natural source of guar gum, meaning they are packed with thick soluble fiber.",
+      "Gavaar is a highly hardy, drought-resilient crop that loves warm regional climates."
+    ],
+    "advice": "🫛 Exceptional for gut health and regulating digestion! Cook it with a dash of garlic and ajwain to maximize comfort."
+  },
+  "bhendi_fry_with_roti": {
+    "display_name": "Bhindi Fry with Roti",
+    "water_liters": 263,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 193,
+      "blue": 50,
+      "grey": 20
+    },
+    "tips": [
+      "Crisp pan-fried okra (bhendi) matches perfectly with warm wheat rotis, offering an easily digestible summer dinner.",
+      "Okra thrives naturally with standard seasonal rainfall, keeping its water cost minimal."
+    ],
+    "advice": "🌵 A beloved family favorite! Use a non-stick pan or an air-fryer to achieve that identical crispy joy with very minimal oil."
+  },
+  "karela_sabzi_with_roti": {
+    "display_name": "Karela Sabzi with Roti",
+    "water_liters": 203,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 143,
+      "blue": 43,
+      "grey": 17
+    },
+    "tips": [
+      "Bitter gourd (karela) contains polypeptide-p, a plant insulin that actively works to lower blood sugar levels naturally.",
+      "Gourds are highly water-efficient plants, making this an environmental asset."
+    ],
+    "advice": "🥒 A phenomenal therapeutic vegetable! Cook it with plenty of sliced onions and fennel seeds (saunf) to balance the bitterness cleanly."
+  },
+  "tinda_sabzi_with_roti": {
+    "display_name": "Tinda Sabzi with Roti",
+    "water_liters": 197,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 137,
+      "blue": 43,
+      "grey": 17
+    },
+    "tips": [
+      "Apple gourd (tinda) is incredibly hydrating, virtually fat-free, and remarkably soothing for the internal digestive tract.",
+      "It displays high water efficiency, growing easily during hot regional summer months."
+    ],
+    "advice": "🥒 Exceptionally light and refreshing! It serves as an ideal clean dinner choice to keep your body hydrated overnight."
+  },
+  "parwal_sabzi_with_roti": {
+    "display_name": "Parwal Sabzi with Roti",
+    "water_liters": 210,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 150,
+      "blue": 43,
+      "grey": 17
+    },
+    "tips": [
+      "Pointed gourd (parwal) is loaded with dietary fiber, Vitamin A, and essential minerals to support optimal bowel health.",
+      "It is a highly hardy summer vegetable that adapts beautifully to natural rainfall cycles."
+    ],
+    "advice": "🌿 Crisp and nourishing! Enjoy it sliced lengthwise and stir-fried with mild spices to protect all its core micronutrients."
+  },
+  "kundru_sabzi_with_roti": {
+    "display_name": "Kundru Sabzi with Roti",
+    "water_liters": 207,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 147,
+      "blue": 43,
+      "grey": 17
+    },
+    "tips": [
+      "Ivy gourd (kundru) is a wonderful source of beta-carotene and unique plant compounds that support metabolic health.",
+      "It grows wild and vigorously with tiny water inputs, making it incredibly sustainable."
+    ],
+    "advice": "🌱 Delightful, crunchy little gourds! Sauté them with mustard seeds and turmeric to unlock a fast, highly fibrous side dish."
+  },
+  "patra": {
+    "display_name": "Patra",
+    "water_liters": 217,
+    "unit": "per serving (~300g)",
+    "breakdown": {
+      "green": 160,
+      "blue": 40,
+      "grey": 17
+    },
+    "tips": [
+      "Colocasia leaves smeared with a spiced gram flour paste, rolled and steamed to create an iron-dense savory snack.",
+      "Colocasia leaves grow vigorously in rainy seasons, holding a tiny water footprint."
+    ],
+    "advice": "🍃 A beloved traditional treat! It is packed with fiber and iron. Enjoy it with a tangy tamarind chutney for a perfect balance of flavors."
+  }
+}
