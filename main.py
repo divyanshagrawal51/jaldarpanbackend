@@ -9,10 +9,10 @@ app.include_router(lookup.router)
 app.include_router(scan.router)
 app.include_router(analyze.router)
 
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://your-app.vercel.app"],
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
