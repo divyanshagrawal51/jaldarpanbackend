@@ -96,6 +96,7 @@ def analyze_meal_from_image(image_base64: str) -> dict | None:
         print(f"Gemini analyze_from_image error: {e}")
         return None
 
+
 def analyze_meal_from_text(items: list) -> dict | None:
     try:
         meal_description = "\n".join(
@@ -108,9 +109,62 @@ def analyze_meal_from_text(items: list) -> dict | None:
         )
 
         response = model.generate_content(prompt)
-        print(f"Gemini raw response: {response.text}")  # ADD THIS
         return _parse_gemini_json(response.text)
 
     except Exception as e:
         print(f"Gemini analyze_from_text error: {e}")
+        return None
+
+
+FARM_SCHEMA = """
+{
+  "total_litres": <integer, total water used by this farm for one crop season>,
+  "efficiency": <integer, irrigation efficiency percentage 0-100>,
+  "saving_potential": <integer, litres that could be saved with better practices>,
+  "tips": [
+    "<practical water conservation tip specific to this crop, irrigation method, and region>",
+    "<another tip>",
+    "<another tip>"
+  ]
+}
+"""
+
+FARM_INSTRUCTIONS = """
+You are an agricultural water footprint expert specializing in Indian farming.
+Estimate the seasonal water footprint for the given farm and provide practical conservation tips.
+Base your estimates on standard Indian agricultural water usage research.
+All water values are in LITRES for the full crop season.
+Efficiency is a percentage (0-100) reflecting how well current irrigation matches crop needs.
+Saving potential is how many litres could be saved by switching to better practices.
+Tips must be specific to the crop, irrigation method, soil type, region, and water source provided.
+Reply with ONLY valid JSON matching this exact schema, no markdown, no explanation:
+""" + FARM_SCHEMA
+
+
+def analyze_farm(crop: str, area: float, irrigation: str,
+                 region: str = "", soil: str = "", water_source: str = "") -> dict | None:
+    try:
+        prompt = (
+            f"Farm details:\n"
+            f"- Crop: {crop}\n"
+            f"- Area: {area} acres\n"
+            f"- Irrigation method: {irrigation}\n"
+            f"- Region: {region or 'India (unspecified)'}\n"
+            f"- Soil type: {soil or 'unspecified'}\n"
+            f"- Water source: {water_source or 'unspecified'}\n\n"
+            + FARM_INSTRUCTIONS
+        )
+
+        response = model.generate_content(prompt)
+        result = _parse_gemini_json(response.text)
+
+        if result:
+            result['total_litres'] = int(result.get('total_litres', 0))
+            result['efficiency'] = int(result.get('efficiency', 0))
+            result['saving_potential'] = int(result.get('saving_potential', 0))
+
+        return result
+
+    except Exception as e:
+        print(f"Gemini analyze_farm error: {e}")
         return None
