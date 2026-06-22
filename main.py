@@ -2,12 +2,13 @@ import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import lookup, scan, analyze
+from routers import lookup, scan, analyze, farmer
 
 app = FastAPI()
 app.include_router(lookup.router)
 app.include_router(scan.router)
 app.include_router(analyze.router)
+app.include_router(farmer.router)
 
 app.add_middleware(
     CORSMiddleware,
