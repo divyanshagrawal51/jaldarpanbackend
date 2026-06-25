@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import Optional, List
-from services.gemini_service import analyze_meal_from_image, analyze_meal_from_text
+from services.gemini_service import analyze_meal_from_image, analyze_meal_from_text, get_swap_suggestions
 
 router = APIRouter()
 
@@ -25,4 +25,6 @@ def analyze(request: AnalyzeRequest):
     if result is None:
         return {"success": False, "message": "Gemini could not analyze this meal."}
 
-    return {"success": True, **result}
+    swaps = get_swap_suggestions(result.get("items", []))
+
+    return {"success": True, **result, "swaps": swaps}
