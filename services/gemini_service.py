@@ -116,6 +116,57 @@ def analyze_meal_from_text(items: list) -> dict | None:
         return None
 
 
+SWAP_SCHEMA = """
+[
+  {
+    "original": "<food item name from the meal>",
+    "swap": "<suggested lower water-footprint Indian alternative>",
+    "originalLitres": <number>,
+    "swapLitres": <number>,
+    "saving": <number, originalLitres minus swapLitres>,
+    "reason": "<one short sentence explaining why this swap saves water, in simple language>"
+  }
+]
+"""
+
+SWAP_INSTRUCTIONS = """
+You are a water footprint expert advising Indian users on sustainable food choices.
+Given a meal with per-item water footprint data, suggest 2-3 smart ingredient swaps.
+Only suggest swaps where the water saving is at least 50 litres.
+Alternatives must be realistic, commonly available Indian foods.
+If all items are already low water footprint, return an empty array [].
+Reply with ONLY a valid JSON array matching this exact schema, no markdown, no explanation:
+""" + SWAP_SCHEMA
+
+
+def get_swap_suggestions(items: list) -> list:
+    """
+    items: list of dicts with keys: name, quantity, litres
+    Returns a list of swap suggestion dicts.
+    """
+    try:
+        item_lines = "\n".join(
+            f"- {item['name']} ({item['quantity']}): {item['litres']}L"
+            for item in items
+        )
+
+        prompt = (
+            f"Meal items with water footprint:\n{item_lines}\n\n"
+            + SWAP_INSTRUCTIONS
+        )
+
+        response = model.generate_content(prompt)
+        result = _parse_gemini_json(response.text)
+
+        if isinstance(result, list):
+            return result
+        return []
+
+    except Exception as e:
+        print(f"Gemini get_swap_suggestions error: {e}")
+        return []
+
+
 FARM_SCHEMA = """
 {
   "total_litres": <integer, total water used by this farm for one crop season>,
