@@ -7,7 +7,7 @@ import base64
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-3.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 def identify_food_from_image(image_base64: str) -> str | None:
