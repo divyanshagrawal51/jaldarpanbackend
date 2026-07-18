@@ -1,40 +1,149 @@
 import os
 import json
+import hashlib
+import base64
 import google.generativeai as genai
 from dotenv import load_dotenv
-import base64
 
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-3.5-flash")
+
+# ── GROQ FALLBACK CLIENT ──
+# Text tasks (analyze-from-text/farmer/swaps) use Groq as PRIMARY — Gemini
+# is only touched if Groq fails. This keeps Gemini's tight daily quota
+# reserved for image tasks (scan / analyze-from-image), which have no
+# solid fallback since Groq's vision model is preview/unreliable.
+GROQ_TEXT_MODEL = "openai/gpt-oss-20b"
+GROQ_VISION_MODEL = "qwen/qwen3.6-27b"  # preview model — may change without notice
+
+try:
+    from groq import Groq
+    groq_client = Groq(api_key=os.getenv("GROQ_API_KEY")) if os.getenv("GROQ_API_KEY") else None
+except Exception:
+    groq_client = None
+
+
+def _log(task: str, provider: str):
+    tags = {
+        "gemini": "🟦 GEMINI",
+        "groq": "🟩 GROQ (fallback)",
+        "cache": "⬜ CACHE (no API call)",
+        "none": "🟥 FAILED (no provider worked)",
+    }
+    print(f"[{task}] {tags.get(provider, provider)}")
+
+# ── SIMPLE IN-MEMORY CACHE ──
+# If the same request (same image / same items) comes in again during
+# testing or a live demo, don't spend quota re-asking the model.
+_cache: dict = {}
+
+
+def _cache_get(key: str):
+    return _cache.get(key)
+
+
+def _cache_set(key: str, value):
+    _cache[key] = value
+    return value
+
+
+def _hash_image(image_base64: str) -> str:
+    return hashlib.sha256(image_base64.encode("utf-8")).hexdigest()
+
+
+def _call_groq_text(prompt: str) -> str | None:
+    if not groq_client:
+        return None
+    try:
+        completion = groq_client.chat.completions.create(
+            model=GROQ_TEXT_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return completion.choices[0].message.content
+    except Exception as e:
+        print(f"Groq text fallback error: {e}")
+        return None
+
+
+def _call_groq_vision(image_base64: str, prompt: str) -> str | None:
+    if not groq_client:
+        return None
+    try:
+        completion = groq_client.chat.completions.create(
+            model=GROQ_VISION_MODEL,
+            messages=[{
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": prompt},
+                    {"type": "image_url", "image_url": {
+                        "url": f"data:image/jpeg;base64,{image_base64}"
+                    }},
+                ],
+            }],
+        )
+        return completion.choices[0].message.content
+    except Exception as e:
+        print(f"Groq vision fallback error: {e}")
+        return None
+
+
+def _parse_gemini_json(text: str) -> dict | None:
+    try:
+        clean = text.strip().replace("```json", "").replace("```", "").strip()
+        return json.loads(clean)
+    except Exception as e:
+        print(f"JSON parse error: {e}\nRaw: {text}")
+        return None
+
+
+# ── FOOD IDENTIFICATION FROM IMAGE (/scan) ──
+
+IDENTIFY_PROMPT = (
+    "Identify the main food or agricultural product in this image. "
+    "Reply with ONLY the food name, one word or two words max. "
+    "Examples: rice, tomato, beef, green pepper. "
+    "If no food is visible, reply with: none"
+)
 
 
 def identify_food_from_image(image_base64: str) -> str | None:
+    cache_key = f"identify:{_hash_image(image_base64)}"
+    cached = _cache_get(cache_key)
+    if cached is not None:
+        _log("identify_food_from_image", "cache")
+        return cached if cached != "__none__" else None
+
+    image_data = base64.b64decode(image_base64)
+    food_name = None
+
     try:
-        image_data = base64.b64decode(image_base64)
-
         response = model.generate_content([
-            {
-                "mime_type": "image/jpeg",
-                "data": image_data
-            },
-            "Identify the main food or agricultural product in this image. "
-            "Reply with ONLY the food name, one word or two words max. "
-            "Examples: rice, tomato, beef, green pepper. "
-            "If no food is visible, reply with: none"
+            {"mime_type": "image/jpeg", "data": image_data},
+            IDENTIFY_PROMPT
         ])
-
         food_name = response.text.strip().lower()
-
-        if food_name == "none":
-            return None
-
-        return food_name
-
+        _log("identify_food_from_image", "gemini")
     except Exception as e:
-        print(f"Gemini error: {e}")
+        print(f"Gemini error (identify_food_from_image): {e}")
+        food_name = None
+
+    # Gemini unreachable/errored -> try Groq vision
+    if food_name is None:
+        groq_text = _call_groq_vision(image_base64, IDENTIFY_PROMPT)
+        if groq_text:
+            food_name = groq_text.strip().lower()
+            _log("identify_food_from_image", "groq")
+
+    if not food_name or food_name == "none":
+        if food_name is None:
+            _log("identify_food_from_image", "none")
+        _cache_set(cache_key, "__none__")
         return None
+
+    _cache_set(cache_key, food_name)
+    return food_name
 
 
 ANALYSIS_SCHEMA = """
@@ -67,53 +176,86 @@ Reply with ONLY a valid JSON object matching this exact schema, no markdown, no 
 """ + ANALYSIS_SCHEMA
 
 
-def _parse_gemini_json(text: str) -> dict | None:
-    try:
-        clean = text.strip().replace("```json", "").replace("```", "").strip()
-        return json.loads(clean)
-    except Exception as e:
-        print(f"JSON parse error: {e}\nRaw: {text}")
-        return None
-
-
 def analyze_meal_from_image(image_base64: str) -> dict | None:
+    cache_key = f"analyze_img:{_hash_image(image_base64)}"
+    cached = _cache_get(cache_key)
+    if cached is not None:
+        _log("analyze_meal_from_image", "cache")
+        return cached
+
+    prompt_text = (
+        "First identify all the food items visible in this meal image. "
+        "Then estimate the water footprint of the complete meal.\n\n"
+        + ANALYSIS_INSTRUCTIONS
+    )
+    image_data = base64.b64decode(image_base64)
+    result = None
+
     try:
-        image_data = base64.b64decode(image_base64)
-
         response = model.generate_content([
-            {
-                "mime_type": "image/jpeg",
-                "data": image_data
-            },
-            "First identify all the food items visible in this meal image. "
-            "Then estimate the water footprint of the complete meal.\n\n"
-            + ANALYSIS_INSTRUCTIONS
+            {"mime_type": "image/jpeg", "data": image_data},
+            prompt_text
         ])
-
-        return _parse_gemini_json(response.text)
-
+        result = _parse_gemini_json(response.text)
+        if result:
+            _log("analyze_meal_from_image", "gemini")
     except Exception as e:
-        print(f"Gemini analyze_from_image error: {e}")
-        return None
+        print(f"Gemini error (analyze_meal_from_image): {e}")
+        result = None
+
+    if result is None:
+        groq_text = _call_groq_vision(image_base64, prompt_text)
+        if groq_text:
+            result = _parse_gemini_json(groq_text)
+            if result:
+                _log("analyze_meal_from_image", "groq")
+
+    if result is None:
+        _log("analyze_meal_from_image", "none")
+
+    if result:
+        _cache_set(cache_key, result)
+    return result
 
 
 def analyze_meal_from_text(items: list) -> dict | None:
-    try:
-        meal_description = "\n".join(
-            f"- {item.name}: {item.quantity}" for item in items
-        )
+    meal_description = "\n".join(
+        f"- {item.name}: {item.quantity}" for item in items
+    )
+    cache_key = f"analyze_text:{meal_description}"
+    cached = _cache_get(cache_key)
+    if cached is not None:
+        _log("analyze_meal_from_text", "cache")
+        return cached
 
-        prompt = (
-            f"Meal contents:\n{meal_description}\n\n"
-            + ANALYSIS_INSTRUCTIONS
-        )
+    prompt = f"Meal contents:\n{meal_description}\n\n" + ANALYSIS_INSTRUCTIONS
+    result = None
 
-        response = model.generate_content(prompt)
-        return _parse_gemini_json(response.text)
+    # Groq first — this is a text-only task, so it doesn't need to touch
+    # Gemini's limited daily quota at all. Gemini quota stays reserved
+    # for image tasks (/scan, analyze-from-image) which have no solid fallback.
+    groq_text = _call_groq_text(prompt)
+    if groq_text:
+        result = _parse_gemini_json(groq_text)
+        if result:
+            _log("analyze_meal_from_text", "groq")
 
-    except Exception as e:
-        print(f"Gemini analyze_from_text error: {e}")
-        return None
+    if result is None:
+        try:
+            response = model.generate_content(prompt)
+            result = _parse_gemini_json(response.text)
+            if result:
+                _log("analyze_meal_from_text", "gemini")
+        except Exception as e:
+            print(f"Gemini error (analyze_meal_from_text): {e}")
+            result = None
+
+    if result is None:
+        _log("analyze_meal_from_text", "none")
+
+    if result:
+        _cache_set(cache_key, result)
+    return result
 
 
 SWAP_SCHEMA = """
@@ -144,27 +286,43 @@ def get_swap_suggestions(items: list) -> list:
     items: list of dicts with keys: name, quantity, litres
     Returns a list of swap suggestion dicts.
     """
-    try:
-        item_lines = "\n".join(
-            f"- {item['name']} ({item['quantity']}): {item['litres']}L"
-            for item in items
-        )
+    item_lines = "\n".join(
+        f"- {item['name']} ({item['quantity']}): {item['litres']}L"
+        for item in items
+    )
+    cache_key = f"swaps:{item_lines}"
+    cached = _cache_get(cache_key)
+    if cached is not None:
+        _log("get_swap_suggestions", "cache")
+        return cached
 
-        prompt = (
-            f"Meal items with water footprint:\n{item_lines}\n\n"
-            + SWAP_INSTRUCTIONS
-        )
+    prompt = f"Meal items with water footprint:\n{item_lines}\n\n" + SWAP_INSTRUCTIONS
+    result = None
 
-        response = model.generate_content(prompt)
-        result = _parse_gemini_json(response.text)
+    # Groq first — text-only task, keep Gemini quota for image tasks.
+    groq_text = _call_groq_text(prompt)
+    if groq_text:
+        parsed = _parse_gemini_json(groq_text)
+        if isinstance(parsed, list):
+            result = parsed
+            _log("get_swap_suggestions", "groq")
 
-        if isinstance(result, list):
-            return result
-        return []
+    if not isinstance(result, list):
+        try:
+            response = model.generate_content(prompt)
+            parsed = _parse_gemini_json(response.text)
+            if isinstance(parsed, list):
+                result = parsed
+                _log("get_swap_suggestions", "gemini")
+        except Exception as e:
+            print(f"Gemini error (get_swap_suggestions): {e}")
 
-    except Exception as e:
-        print(f"Gemini get_swap_suggestions error: {e}")
-        return []
+    if not isinstance(result, list):
+        _log("get_swap_suggestions", "none")
+        result = []
+
+    _cache_set(cache_key, result)
+    return result
 
 
 FARM_SCHEMA = """
@@ -194,28 +352,47 @@ Reply with ONLY valid JSON matching this exact schema, no markdown, no explanati
 
 def analyze_farm(crop: str, area: float, irrigation: str,
                  region: str = "", soil: str = "", water_source: str = "") -> dict | None:
-    try:
-        prompt = (
-            f"Farm details:\n"
-            f"- Crop: {crop}\n"
-            f"- Area: {area} acres\n"
-            f"- Irrigation method: {irrigation}\n"
-            f"- Region: {region or 'India (unspecified)'}\n"
-            f"- Soil type: {soil or 'unspecified'}\n"
-            f"- Water source: {water_source or 'unspecified'}\n\n"
-            + FARM_INSTRUCTIONS
-        )
+    prompt = (
+        f"Farm details:\n"
+        f"- Crop: {crop}\n"
+        f"- Area: {area} acres\n"
+        f"- Irrigation method: {irrigation}\n"
+        f"- Region: {region or 'India (unspecified)'}\n"
+        f"- Soil type: {soil or 'unspecified'}\n"
+        f"- Water source: {water_source or 'unspecified'}\n\n"
+        + FARM_INSTRUCTIONS
+    )
+    cache_key = f"farm:{crop}:{area}:{irrigation}:{region}:{soil}:{water_source}"
+    cached = _cache_get(cache_key)
+    if cached is not None:
+        _log("analyze_farm", "cache")
+        return cached
 
-        response = model.generate_content(prompt)
-        result = _parse_gemini_json(response.text)
+    result = None
 
+    # Groq first — text-only task, keep Gemini quota for image tasks.
+    groq_text = _call_groq_text(prompt)
+    if groq_text:
+        result = _parse_gemini_json(groq_text)
         if result:
-            result['total_litres'] = int(result.get('total_litres', 0))
-            result['efficiency'] = int(result.get('efficiency', 0))
-            result['saving_potential'] = int(result.get('saving_potential', 0))
+            _log("analyze_farm", "groq")
 
-        return result
+    if result is None:
+        try:
+            response = model.generate_content(prompt)
+            result = _parse_gemini_json(response.text)
+            if result:
+                _log("analyze_farm", "gemini")
+        except Exception as e:
+            print(f"Gemini error (analyze_farm): {e}")
 
-    except Exception as e:
-        print(f"Gemini analyze_farm error: {e}")
-        return None
+    if result is None:
+        _log("analyze_farm", "none")
+
+    if result:
+        result['total_litres'] = int(result.get('total_litres', 0))
+        result['efficiency'] = int(result.get('efficiency', 0))
+        result['saving_potential'] = int(result.get('saving_potential', 0))
+        _cache_set(cache_key, result)
+
+    return result
