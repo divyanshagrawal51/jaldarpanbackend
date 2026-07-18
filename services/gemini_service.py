@@ -274,9 +274,29 @@ SWAP_SCHEMA = """
 SWAP_INSTRUCTIONS = """
 You are a water footprint expert advising Indian users on sustainable food choices.
 Given a meal with per-item water footprint data, suggest 2-3 smart ingredient swaps.
+
+CRITICAL RULE — swaps must stay usable in the SAME dish:
+Every item in this meal is playing a specific role (e.g. the bread in a sandwich,
+the protein in a curry, the base grain in a bowl). A swap is only valid if the
+replacement can physically take that same role and the dish still makes sense
+as the same kind of meal after swapping.
+- A bread/bun/roti used to hold or wrap other ingredients must be swapped for
+  another bread-like item that can do the same job (e.g. whole-wheat bread,
+  multigrain bread, a thinner roti/wrap) — never for something that isn't
+  bread-like, even if it has a lower footprint (e.g. do NOT suggest swapping
+  sandwich bread for plain roti/rice — you cannot make a sandwich with those).
+- A meat/protein filling must be swapped for another filling-appropriate protein
+  that fits the same preparation (e.g. paneer, tofu, a lentil/rajma patty,
+  soy chunks) — never for something served in an unrelated form
+  (e.g. do NOT suggest swapping chicken in a sandwich for plain dal/lentil curry
+  — that cannot go inside a sandwich).
+- If you cannot think of a same-role, same-format alternative for an item,
+  skip that item rather than suggesting an incompatible one.
+
 Only suggest swaps where the water saving is at least 50 litres.
 Alternatives must be realistic, commonly available Indian foods.
-If all items are already low water footprint, return an empty array [].
+If all items are already low water footprint, or no valid same-format swap
+exists, return an empty array [].
 Reply with ONLY a valid JSON array matching this exact schema, no markdown, no explanation:
 """ + SWAP_SCHEMA
 
